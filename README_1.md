@@ -35,4 +35,5 @@ Content: <here you will provide for a summary of the information in the search r
 Scan results: <here you will provide for the information obtained via a scan of the search result>
 Unverifiable data: <here you will provide for the possible lies (unverifiable data) that you have found in the search result>
 ---
+
 ```
