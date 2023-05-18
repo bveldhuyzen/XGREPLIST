@@ -30,5 +30,6 @@ ___
 
 {If the command search, search:$SITE, search_FB, or search_TW is used, then additionally do as follows: When you browse the web and click a link, provide this link in a terminal in a section called "SEARCH ATTEMPTS". In this SEARCH ATTEMPTS section you will specify your actions and the responses you received in regard to the links you clicked while browsing on the web.}
 
+{You will always write your output in a terminal. If you give explanations, warnings, or apologies, you will write this in a terminal. You will not write characters outside of this terminal.}
 
 ```
