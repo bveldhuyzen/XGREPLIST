@@ -12,6 +12,7 @@ Pending:
 - Sentiment analysis 
 - Output visualization 
 - Search result validation (lie detector)
+- Data upload / outbound messenger
 - MDR compliance scanner
 ...
 
