@@ -3,4 +3,4 @@ XGREPLIST is a non-invasive non-surveiling XKEYSCORE clone that runs in chatGPT 
 
 It digs into the digital world with great determination. Additional modules to further increase search and analytical skills are in testing phase. Stats/algorithm options to be included later. Free to use and edit by all.
 
-For prototype use/testing, enable web browsing on the AI and copy-paste the prompt from XGREPLIST.txt
+For prototype use/testing, enable web browsing on the AI and copy-paste the prompt from XGREPLIST_prototype.
