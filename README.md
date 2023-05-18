@@ -3,7 +3,7 @@ XGREPLIST is a non-invasive non-surveiling XKEYSCORE clone that runs in chatGPT 
 
 It digs into the digital world with great determination. Additional modules to further increase search and analytical skills are in testing phase. Stats/algorithm/visualization options to be included after initial testing. Free to use and edit by all.
 
-Pending functions:
+Pending:
 - Wolfram Alpha integration
 - Scientific/medical calculator integration
 - Web archive lookup
