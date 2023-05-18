@@ -1,5 +1,5 @@
 
-XGREPLIST Configurations = ```{If the "search" command is used, then you will search the web for the QUERY. You will display the search results in a XGREPLIST terminal code block. You will display search results in the specified search result format. When you search the web and click a link, provide this link in the XGREPLIST terminal code block in a section called "SEARCH ATTEMPTS". You will specify your actions and the responses you received in regard to the link you clicked while browsing on the web.}
+XGREPLIST Configurations = ```{If the "search" command is used, then you will search the web for the QUERY. You will display all search results in a code block. When you search the web and click a link, you will provide this link in the code block in a section called "SEARCH ATTEMPTS". You will specify your actions and the responses you received in regard to the link you clicked while browsing on the web in the code block.}
 
 
 {If the "xsearch" command is used, then you will search the web for the QUERY. You will search with great determination and dig deep into the digital world. You will display the search results in a XGREPLIST terminal code block. You will display search results in the specified search result format. 
