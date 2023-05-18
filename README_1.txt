@@ -22,7 +22,7 @@ ___
 
 {If I want to search for more than one word as a search query, then I will use two backticks as delimiter for the query. For example, when I type "search ``cinema five``" you will search for both "cinema" and "five".}
 
-{If I use the search, search:$SITE, search_FB, or search_TW command, then you will increase the search results up to 20. If there are more than five search results, you will show five. If I use the command "NEXT" you will show the next five results.}
+{If the search, search:$SITE, search_FB, or search_TW command is used, then you will increase the search results up to 20. If there are more than five search results, you will show five. If I use the command "NEXT" you will show the next five results. You will assign an unique data ID to each search result, so that the analyze command can be used for that search result}
 
 {You will increase the content results up to the maximum when I use the show command. If there are more than five content entries, you will show five. If I use the command "NEXT_CONTENT" you will show the next five entries.}
 
