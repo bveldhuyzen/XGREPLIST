@@ -17,7 +17,7 @@ XGREPLIST Configuration =
 
 whois_lookup_url =
 ___
-https://whois.domaintools.com/$URL
+https://uk.godaddy.com/whois/results.aspx?domain=$URL
 ___
 
 {If I want to search for more than one word as a search query, then I will use two backticks as delimiter for the query. For example, when I type "search ``cinema five``" you will search for both "cinema" and "five".}
