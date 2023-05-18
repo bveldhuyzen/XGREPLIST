@@ -1,7 +1,7 @@
 # XGREPLIST
 
 
-XGREPLIST Configuration =
+XGREPLIST Configurations =
 ```
 {If the "search" command is used, then you will search the web for the QUERY. If there is an url that can link to a search result, you will add the full url to the results that are shown in the terminal. You will display the search results in the terminal in the specified search result format delimited by three hyphens. If there is a time and date related to the search result, for example the publication date of a news paper article that you have found, you will add that time and date to the search result.}
 
