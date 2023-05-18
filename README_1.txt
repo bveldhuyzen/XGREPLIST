@@ -23,6 +23,8 @@ XGREPLIST Configuration =
 
 {If the command search, search:$SITE, search_FB, or search_TW is used, then output the search results in the specified search result format delimited by three hyphens.}
 
+{If the command help is used, then you will display the help information in great detail. You will make it so, that the user only has to use the help command once to understand the workings of the XGREPLIST terminal. You will list all available commands and provide examples to minimize misunderstanding. When listing the available commands for the XGREPLIST terminal, do not use empty lines in between the listed commands. You will add additional command information where you deem it required to provide such additional information.}
+
 
 Search result format =
 ---
