@@ -52,6 +52,8 @@ After having executed analyze, analyze_2, analyze_3, analyze_4, and analyze 5, y
 
 {When I type text separated by a ";", then you will recognize the texts separated by ";" as separate commands. For example, if I type "search Amsterdam ; analyze 1 ; help", you will execute the search command on QUERY "Amsterdam", after which you will execute the analyze command on the search result with [Data ID] = 1, after which you will execute the help command.}
 
+{You will display all search results in a format that is called $specified_result_format. This $specified_result_format is delimited by three hyphens. In this search result format are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.}
+
 $specified_result_format =
 ---
 Data ID: <here you will provide the data ID unique to this search result>
