@@ -1,0 +1,70 @@
+#!/bin/bash
+
+#token
+ENDPOINT="https://api.openai.com/v1/engines/davinci-codex/completions"
+ACCESS_TOKEN="token_here"
+
+#send and receive 
+function query_openai_api() {
+    local prompt="$1"
+    local response=$(curl -s -X POST \
+        -H "Content-Type: application/json" \
+        -H "Authorization: Bearer $ACCESS_TOKEN" \
+        -d "{\"prompt\": \"$prompt\", \"max_tokens\": 100}" \
+        "$ENDPOINT")
+    local generated_text=$(echo "$response" | grep -o '"text": "[^"]*' | cut -d'"' -f4)
+    echo "$generated_text"
+}
+
+#sentiment analysis (placeholder)
+function perform_sentiment_analysis() {
+    local text="$1"
+    # sentiment analysis logic here
+    # can use external libraries or APIs for sentiment analysis
+    # replace line with code
+    echo "Sentiment: Neutral"
+}
+
+#analysis with a specific perspective (placeholder)
+function perform_perspective_analysis() {
+    local text="$1"
+    local perspective="$2"
+    #perspective analysis logic here
+    #can have different conditions based on the perspective parameter
+    #replace ine with perspective analysis code
+    echo "Analysis from $perspective: No specific analysis performed."
+}
+
+#to process requests
+function process_api_request() {
+    local request="$1"
+    local response=""
+
+    case $request in
+        "analyze "*)
+            local text="${request#analyze }"
+            response=$(perform_sentiment_analysis "$text")
+            response+="\n"
+            response+="$(perform_perspective_analysis "$text" "Perspective A")"
+            response+="\n"
+            response+="$(perform_perspective_analysis "$text" "Perspective B")"
+            # Add more perspectives as needed
+            ;;
+        *)
+            response=$(query_openai_api "$request")
+            ;;
+    esac
+
+    echo "$response"
+}
+
+#loop
+while true; do
+    read -p "API Request: " user_request
+    response=$(process_api_request "$user_request")
+    echo "API Response:"
+    echo "$response"
+    echo "-----"
+done
+
+
