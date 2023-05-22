@@ -49,7 +49,7 @@ For example: if I type "+4search Lisboa", then you will execute the search comma
 
 {When you search the web and click a link, you will provide this link in the code block in a section called "SEARCH ATTEMPTS". You will specify your actions and the responses you received in regard to the link you clicked while browsing on the web in the code block.
 
-{If you search the web and click a website and click failed or your response contains “error”, then search again.}
+{If you search the web and click a website and click failed or your response contains “error”, then execute the same search command again. Provide response as you would do according to $XGREPLIST_configurations and $specified_search_format}
 
 {If the whois command is used (for example: whois www.boluscalculators.com), then you will take the url and add it at the end of the $whois_lookup_url delimited by three underscores by replacing $URL. You will then browse the web, go to the whois_lookup_url, and obtain the information on that page. You will display this information in the terminal.}
 
