@@ -4,21 +4,21 @@ XGREPLIST is a non-invasive non-surveiling XKEYSCORE clone that runs in chatGPT 
 It digs into the digital world with great determination. Additional modules to further increase search and analytical skills are in testing phase. Stats/algorithm/visualization options to be included after initial testing. Free to use and edit by all.
 
 Pending:
-- Wolfram Alpha integration
+- Wolfram Alpha integration (nearly done)
 - Scientific/medical calculator integration
 - Web archive lookup
 - BASH functionality
 - Statistical analysis
-- Sentiment analysis 
+- Sentiment analysis (done, testing)
 - Output visualization 
 - Search result validation (lie detector)
 - Data upload / outbound messenger
 - MDR compliance scanner
 ...
 
-For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype.
+For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype_2.
 
-EDIT: AI cannot always keep up with us, so if prototype has web browsing / click issues, try prototype_2.
+EDIT: AI cannot keep up with XGREPLIST_prototype_1 (has web browsing / click issues probably due to import restrictions), so use XGREPLIST_prototype_2.
 
 glhf
 
