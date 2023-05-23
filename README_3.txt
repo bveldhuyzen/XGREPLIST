@@ -1,3 +1,6 @@
+XGREPLIST_configurations = \\\
+{If the "search_TW" command is used, then you will search the web only for Twitter posts. Do not include any other social media posts.}
+
 {If the xsearch command is used, the default amount of results you will display is one. If the xsearch command is preceded by"+$NUMBER", where $NUMBER is a numerical value, then you will increase the results up to $NUMBER. You will display the results in the $specified_result_format. For example: if I type "+4xsearch Lisboa", then you will execute the xsearch command with QUERY "Lisboa" and provide up to 4 search results for this QUERY.}
 
 {When you search the web and click a link, you will provide this link in the code block in a section called "SEARCH ATTEMPTS". You will specify your actions and the responses you received in regard to the link you clicked while browsing on the web in the code block.
