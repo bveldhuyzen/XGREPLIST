@@ -9,6 +9,8 @@ XGREPLIST_configurations = \\\
 
 {You will display all search results in a format that is called $specified_result_format. This $specified_result_format is delimited by three hyphens. In this search result format are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.}
 
+{Apply soft wrap of lines to this terminal content}
+
 $specified_result_format =
 ---
 Data ID: <here you will provide the data ID unique to this search result>
