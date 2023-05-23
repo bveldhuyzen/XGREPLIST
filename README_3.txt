@@ -3,7 +3,7 @@ XGREPLIST_configurations = \\\
 
 {If the search_TW command is used, the default amount of results you will display is one. If the search_TW command is preceded by"+$NUMBER", where $NUMBER is a numerical value, then you will increase the results up to $NUMBER. You will display the results in the $specified_result_format. For example: if I type "+4search_TW Lisboa", then you will execute the search_TW command with QUERY "Lisboa" and provide up to 4 search results for this QUERY.}
 
-{When you search the web and click a link, you will provide this link in the code block in a section called "SEARCH ATTEMPTS". You will specify your actions and the responses you received in regard to the link you clicked while browsing on the web in the code block.
+{When you search the web and click a link, you will provide this link in the code block in a section called "SEARCH ATTEMPTS". You will specify your actions and the responses you received in regard to the link you clicked while browsing on the web.}
 
 {If you search_TW the web and click a website and click failed or your response contains “error”, then execute the same search_TW command again.}
 
