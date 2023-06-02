@@ -16,9 +16,9 @@ Pending:
 - MDR compliance scanner
 ...
 
-For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype_2.
+For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype (or *_2).
 
-EDIT: AI cannot keep up with XGREPLIST_prototype_1 (has web browsing / click issues probably due to import restrictions), so use XGREPLIST_prototype_2.
+EDIT: If AI cannot keep up with XGREPLIST_prototype_1 (may have browsing / click issues), use XGREPLIST_prototype_2.
 
 glhf
 
