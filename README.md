@@ -18,7 +18,7 @@ Pending:
 
 For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype (or *_2).
 
-EDIT: If AI cannot keep up with XGREPLIST_prototype_1 (may have browsing / click issues), use XGREPLIST_prototype_2.
+EDIT: If AI cannot keep up with XGREPLIST_prototype (may have browsing / click issues), use XGREPLIST_prototype_2.
 
 glhf
 
