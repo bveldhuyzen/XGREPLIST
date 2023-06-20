@@ -1,0 +1,55 @@
+import openai
+import time
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+
+openai.api_key='sk-token here'
+
+nltk.download('vader_lexicon')
+
+def get_sentiment(text):
+    sia = SentimentIntensityAnalyzer()
+    sentiment_scores = sia.polarity_scores(text)
+    compound_score = sentiment_scores['compound']
+    if compound_score >= 0.05:
+        return 'positive'
+    elif compound_score <= -0.05:
+        return 'negative'
+    else:
+        return 'neutral'
+
+def get_chat_response(message):
+    response = openai.Completion.create(
+        engine='text-davinci-003',
+        prompt=message,
+        max_tokens=50,
+        temperature=0.7,
+        n=1,
+        stop=None,
+        timeout=10,
+    )
+    reply = response.choices[0].text.strip()
+    sentiment = get_sentiment(reply)
+    return reply, sentiment
+
+def main():
+    print("Welcome to ChatGPT AI!")
+    print("You can start chatting with the AI now.")
+    print("Enter 'exit' to end the conversation.\n")
+
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == 'exit':
+            break
+
+        start_time = time.time()
+        response, sentiment = get_chat_response(user_input)
+        end_time = time.time()
+
+        print(f"ChatGPT AI: {response} (response time: {end_time - start_time:.2f} seconds)")
+        print(f"Sentiment: {sentiment}\n")
+
+    print("Thank you for chatting with ChatGPT AI!")
+
+if __name__ == '__main__':
+    main()
