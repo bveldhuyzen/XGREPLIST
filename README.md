@@ -9,7 +9,7 @@ Pending:
 - Web archive lookup
 - BASH functionality
 - Statistical analysis
-- Sentiment analysis (done, testing)
+- Sentiment/perspective analysis (preliminary testing shows superiority of chatGPT i.e. chatGPT sentiment and perspective analysis > NLTK + VADER (bye bye py?))
 - Output visualization 
 - Search result validation (lie detector)
 - Data upload / outbound messenger
