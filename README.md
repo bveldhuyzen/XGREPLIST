@@ -20,5 +20,8 @@ For prototype use/testing, enable web browsing on the AI, and copy-paste the pro
 
 EDIT: If AI cannot keep up with XGREPLIST_prototype (may have browsing / click issues), use XGREPLIST_prototype_2.
 
+EDIT_2: This repository is on hold due to the web browsing plugin not being available anymore. It is uncertain whether the web browsing plugin will be made available again.
+
+
 glhf
 
