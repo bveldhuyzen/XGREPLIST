@@ -35,4 +35,5 @@ prompt=f"""
 
 
 """
-print=
+result=get_completion(prompt)
+print=result(prompt)
