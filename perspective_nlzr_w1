@@ -2,7 +2,7 @@
 
 prompt=f"""
 
-Analyze the text below. This text has [Data ID] = 1. ASDF according to $w1_config delimited by three dollar signs.
+You will analyze a specified text. This text has [Data ID] = 1 and is delimited by three backslashes. You will perform a perspective and sentiment analysis on [Data ID] = 1.  according to $w1_config delimited by three dollar signs.
 
 
 $w1_config = $$$ 
