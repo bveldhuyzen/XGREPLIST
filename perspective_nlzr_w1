@@ -1,25 +1,25 @@
 #ffa multi-perspective analysis:
 
-prompt=f""" 
+prompt=f"""  
   
-You will analyze a specified text. This text [Data ID 1] is delimited by three backslashes. You will perform a perspective and sentiment analysis on [Data ID 1]. You will output the results in great detail in the format $w1_config delimited by three dollar signs. 
+You will analyze a specified text. This text [Data ID 1] is delimited by three backslashes. You will output the results in great detail in the format $w1_config delimited by three dollar signs.  
   
-In $w1_config delimited by three dollar signs are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>. 
-  
-  
-$w1_config = $$$  
-- Citizen RU = <here you will provide for how you would think a model citizen of the Russian Federation would perceive the information in the text [Data ID 1]. Provide an answer in great detail. Discuss what action a model citizen of the Russian Federation may or may not take, and provide the rationale for this in great detail. Use your entire knowledge database.>  
-- Rebel RU = <here you will provide for how you would think a discontent citizen of the Russian Federation would perceive the information in text [Data ID 1]. Provide an answer in great detail. Discuss what action a discontent citizen of the Russian Federation may or may not take, and provide the rationale for this in great detail. Use your entire knowledge database.> 
-- Government RU = <here you will provide for how you would think the government of the Russian Federation would perceive the information in text [Data ID 1]. Provide an answer in great detail. Discuss what action the government of the Russian Federation may or may not take, and provide the rationale for this in great detail. Use your entire knowledge database.> 
-$$$  
+In $w1_config delimited by three dollar signs are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.  
   
   
-[Data ID 1] = \\\ 
-Ukraine joins NATO.
-The rest of the world remains as it is.  
-\\\ 
-"""
+$w1_config = $$$   
+- Citizen RU = <here you will provide for how you would think a model citizen of the Russian Federation would perceive the information in the text [Data ID 1]. Provide an answer in great detail. Discuss what action a model citizen of the Russian Federation may or may not take, and provide the rationale for this in great detail. Use your entire knowledge database.>   
+- Rebel RU = <here you will provide for how you would think a discontent citizen of the Russian Federation would perceive the information in text [Data ID 1]. Provide an answer in great detail. Discuss what action a discontent citizen of the Russian Federation may or may not take, and provide the rationale for this in great detail. Use your entire knowledge database.>  
+- Government RU = <here you will provide for how you would think the government of the Russian Federation would perceive the information in text [Data ID 1]. Provide an answer in great detail. Discuss what action the government of the Russian Federation may or may not take, and provide the rationale for this in great detail. Use your entire knowledge database.>  
+ $$$   
+  
 
-
-response=get_completion(prompt) 
+[Data ID 1] = \\\  
+The Russian Federation and Ukraine are at war. There are many casualties. A bomb is dropped on the Kremlin.
+The rest of the world remains as it is.   
+\\\  
+""" 
+  
+  
+response=get_completion(prompt)  
 print(response)
