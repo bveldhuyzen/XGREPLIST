@@ -2,41 +2,19 @@
 
 prompt=f"""
 
-**PLUGIN EXECUTION HERE**
+Analyze the text below. This text has [Data ID] = 1. ASDF according to $w1_config delimited by three dollar signs.
 
-{You will assign Data ID = 1 to the result of the PDF plugin result. For example, if I upload a PDF file via the plugin, then this file has Data ID = 1}
 
-{You will display all search results in a format that is called $specified_result_format. This $specified_result_format is delimited by three hyphens. In this search result format are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.} 
-
-{When the "search $DATA_ID" command is used, then you will scan the $DATA_ID for information to include in the $specified_result_format delimited by three hyphens. You will then display the $specified_result_format with the information included.}
-  
-$specified_result_format = --- 
-Data ID: <here you will provide the data ID unique to this search result> 
-Description: <here you will provide a description of the search result> 
-Source: <here you will provide the source of the search result> 
-Timestamp: <here you will provide for the time and date related to the search result. For example, the publication date or the release date of the information in the search result> 
-URL: <here you will provide the full url to the search result> 
-Content: <here you will provide for a summary of the information in the search result> 
-Scan results: <here you will provide for the information obtained via a scan of the search result> 
-Unverifiable data: <here you will provide for the possible lies e.g. unverifiable data that you have found in the search result> 
---- 
-  
-{When the analyze_w1 command is used, you will  provide an analysis according to the format $w1_config delimited in three dollar signs. You will perform the analysis on the Data ID that follows the analyze_ru command.  
-In $w1_config delimited by theee dollar signs are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>. 
-Use the data available to you in your knowledge database. If necessary, browse the web for additional information. 
-For example: If I type "analyze_w1 1", you will perform the analysis on [Data ID] = 1.} 
-  
-  
 $w1_config = $$$ 
 - Citizen RU = <here you will provide for how you would think a model citizen of the Russian Federation would perceive the information in the Data ID> 
 - Rebel RU = <here you will provide for how you would think a discontent citizen of the Russian Federation would perceive the information in the Data ID> 
 - Government RU = <here you will provide for how you would think the government of the Russian Federation would perceive the information in the Data ID> 
 $$$ 
-  
-  
-{When I type text separated by a ";", then you will recognize the texts separated by ";" as separate commands. For example, if I type "search 1 ; analyze_w1 1; help", you will execute the search command on [Data ID] = 1, after which you will execute the analyze_w1 command on the search result with [Data ID] = 1, after which you will execute the help command.} 
 
 
+Provide output in one unique code block.
+
+  
 """
 response=get_completion(prompt)
 print=response(prompt)
