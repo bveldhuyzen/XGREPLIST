@@ -7,20 +7,20 @@ You will analyze a specified text. This text [Data ID 1] is delimited by three b
 In $w1_config delimited by three dollar signs are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.
 
 
-[Data ID 1] = 
-\\\
-Brain, the character Brain of the Pinky and the Brain cartoon, has taken residence in the White House as President of the United States.
-Pinky, the character Pinky of the Pinky and the Brain cartoon, is Brain's chief of staff.
-The rest of the world remains as it is. 
-\\\
-
-
 $w1_config = 
 $$$ 
 - Citizen RU = <here you will provide for how you would think a model citizen of the Russian Federation would perceive the information in the Data ID> 
 - Rebel RU = <here you will provide for how you would think a discontent citizen of the Russian Federation would perceive the information in the Data ID> 
 - Government RU = <here you will provide for how you would think the government of the Russian Federation would perceive the information in the Data ID> 
 $$$ 
+
+
+[Data ID 1] = 
+\\\
+Brain, the character Brain of the Pinky and the Brain cartoon, has taken residence in the White House as President of the United States.
+Pinky, the character Pinky of the Pinky and the Brain cartoon, is Brain's chief of staff.
+The rest of the world remains as it is. 
+\\\
 
 
 Provide output in one unique code block.
