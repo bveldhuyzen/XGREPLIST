@@ -28,4 +28,4 @@ Provide output in one unique code block.
   
 """
 response=get_completion(prompt)
-print=response(prompt)
+print(response)
