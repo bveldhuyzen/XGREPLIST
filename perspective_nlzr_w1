@@ -4,9 +4,9 @@ prompt=f"""
 
 **PLUGIN EXECUTION HERE**
 
-{You will assign Data ID = 1 to the result of ...pdf plugin result.}
+{You will assign Data ID = 1 to the result of the PDF plugin result. For example, if I upload a PDF file via the plugin, then this file has Data ID = 1}
 
-...etc.
+{When the "search $DATA_ID" command is used, then you will scan the $DATA_ID for information to include in the $specified_result_format delimited by three hyphens. You will then display the $specified_result_format with the information included.}
 
 {You will display all search results in a format that is called $specified_result_format. This $specified_result_format is delimited by three hyphens. In this search result format are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.} 
   
