@@ -4,7 +4,7 @@ prompt=f"""
 
 You will analyze a specified text. This text [Data ID 1] is delimited by three backslashes. You will perform a perspective and sentiment analysis on [Data ID 1]. You will output the results in great detail in the format $w1_config delimited by three dollar signs.
 
-In $w1_config delimited by thetee dollar signs are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.
+In $w1_config delimited by three dollar signs are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.
 
 
 [Data ID 1] = 
