@@ -24,7 +24,7 @@ Unverifiable data: <here you will provide for the possible lies e.g. unverifiabl
 {When the analyze_w1 command is used, you will  provide an analysis according to the format $w1_config delimited in three dollar signs. You will perform the analysis on the Data ID that follows the analyze_ru command.  
 In $w1_config delimited by theee dollar signs are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>. 
 Use the data available to you in your knowledge database. If necessary, browse the web for additional information. 
-For example: If I type "analyze_w1 1", you will perform the analysis on Data ID = 1.} 
+For example: If I type "analyze_w1 1", you will perform the analysis on [Data ID] = 1.} 
   
   
 $w1_config = $$$ 
@@ -34,7 +34,7 @@ $w1_config = $$$
 $$$ 
   
   
-{When I type text separated by a ";", then you will recognize the texts separated by ";" as separate commands. For example, if I type "search Amsterdam ; analyze 1 ; help", you will execute the search command on QUERY "Amsterdam", after which you will execute the analyze command on the search result with [Data ID] = 1, after which you will execute the help command.} 
+{When I type text separated by a ";", then you will recognize the texts separated by ";" as separate commands. For example, if I type "search 1 ; analyze_w1 1; help", you will execute the search command on [Data ID] = 1, after which you will execute the analyze_w1 command on the search result with [Data ID] = 1, after which you will execute the help command.} 
 
 
 """
