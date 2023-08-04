@@ -13,7 +13,8 @@ text here
 \\\
 
 
-$w1_config = $$$ 
+$w1_config = 
+$$$ 
 - Citizen RU = <here you will provide for how you would think a model citizen of the Russian Federation would perceive the information in the Data ID> 
 - Rebel RU = <here you will provide for how you would think a discontent citizen of the Russian Federation would perceive the information in the Data ID> 
 - Government RU = <here you will provide for how you would think the government of the Russian Federation would perceive the information in the Data ID> 
