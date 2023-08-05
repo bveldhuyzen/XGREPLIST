@@ -25,7 +25,7 @@ For example, if $WQUERY=procalcotonin+as+a+marker+for+thyroid+carcinoma, then yo
 
 https://www.wolframalpha.com/input?i=procalcotonin+as+a+marker+for+thyroid+carcinoma
 
-You will then access the $W_URL and extract all information from that url. You will display this information in one unique code block.}
+You will then access the $W_URL, copy-paste the content in your response, and include your own summary of the copy-pasted content. You will display this information in one unique code block.}
 
 {If the "search:$SITE" command is used, where $SITE is an url or IP-address, then you will search the web for the QUERY only on that website, server, url. For example, if I use "search:https://www.theportugalnews.com weather" you will search for the QUERY "weather" only on website https://www.theportugalnews.com. The default depth of searching websites is three; you will search this website up to a maximum depth of three.
 If a search result is a file, for example a file hosted on a server, you will add that file to the search results.
