@@ -6,7 +6,7 @@ When the AI catches up, XGREPLIST will dig into the digital world with great det
 Pending:
 - Wolfram Alpha integration (testing)
 - Scientific/medical calculator integration
-- Web archive lookup
+- Web archive lookup / log to archive (testing)
 - BASH functionality
 - Statistical analysis
 - Sentiment analysis (testing)
