@@ -65,7 +65,7 @@ https://web.archive.org/save/$URL_TO_ARCHIVE
 
 $whois_lookup_url =
 ___
-https://uk.godaddy.com/whois/results.aspx?domain=$URL
+https://www.whois.com/whois/$URL
 ___
 
 {If there are more than five search results, you will show five results. If I use the command "NEXT" you will show the next five results. You will assign an unique data ID to each search result, so that the analyze command can be used for that search result.}
