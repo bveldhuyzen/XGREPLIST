@@ -12,7 +12,7 @@ Pending:
 - BASH functionality
 - Statistical analysis
 - Sentiment analysis (testing/online)
-- Perspective analysis (testing/online; preliminary testing shows superiority of chatGPT i.e. chatGPT perspective analysis > NLTK + VADER)
+- Perspective analysis (testing/online)
 - Output visualization 
 - Search result validation (lie detector)
 - Data upload / outbound messenger (testing/offline)
