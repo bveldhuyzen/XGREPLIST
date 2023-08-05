@@ -4,16 +4,18 @@ XGREPLIST is a non-invasive non-surveiling XKEYSCORE simulator that runs in chat
 When the AI catches up, XGREPLIST will dig into the digital world with great determination. Additional modules to further increase search and analytical skills are in testing phase. Stats/algorithm/visualization options to be included after initial testing. Free to use and edit by all.
 
 Pending:
+- search tools (testing/online)
 - Wolfram Alpha integration (testing)
+- WHOIS lookup (testing/online)
 - Scientific/medical calculator integration
-- Web archive lookup / log to archive (testing)
+- Web archive lookup / log to archive (testing/online)
 - BASH functionality
 - Statistical analysis
-- Sentiment analysis (testing)
-- Perspective analysis (testing; preliminary testing shows superiority of chatGPT i.e. chatGPT perspective analysis > NLTK + VADER
+- Sentiment analysis (testing/online)
+- Perspective analysis (testing/online; preliminary testing shows superiority of chatGPT i.e. chatGPT perspective analysis > NLTK + VADER)
 - Output visualization 
 - Search result validation (lie detector)
-- Data upload / outbound messenger (testing)
+- Data upload / outbound messenger (testing/offline)
 - MDR compliance scanner
 ...
 
@@ -21,7 +23,7 @@ For prototype use/testing, enable web browsing on the AI, and copy-paste the pro
 
 EDIT: If AI cannot keep up with XGREPLIST_prototype (may have browsing / click issues), use XGREPLIST_prototype_2.
 
-EDIT_2: -ninja edit- testing has resumed
+EDIT_2: -ninja edit- testing again
 
 
 glhf
