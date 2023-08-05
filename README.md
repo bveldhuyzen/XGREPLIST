@@ -9,7 +9,7 @@ Pending:
 - Web archive lookup
 - BASH functionality
 - Statistical analysis
-- Sentiment/perspective analysis (preliminary testing shows superiority of chatGPT i.e. chatGPT sentiment and perspective analysis > NLTK + VADER (bye bye py?))
+- Sentiment/perspective analysis (preliminary testing shows superiority of chatGPT i.e. chatGPT sentiment and perspective analysis > NLTK + VADER
 - Output visualization 
 - Search result validation (lie detector)
 - Data upload / outbound messenger
@@ -20,7 +20,7 @@ For prototype use/testing, enable web browsing on the AI, and copy-paste the pro
 
 EDIT: If AI cannot keep up with XGREPLIST_prototype (may have browsing / click issues), use XGREPLIST_prototype_2.
 
-EDIT_2: This repository is on hold due to the web browsing plugin not being available anymore. It is uncertain whether the web browsing plugin will be made available again.
+EDIT_2: -ninja edit- testing has resumed
 
 
 glhf
