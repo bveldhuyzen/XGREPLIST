@@ -54,6 +54,13 @@ Scan results: <here you will provide for the information obtained via a scan of 
 Unverifiable data: <here you will provide for the possible lies e.g. unverifiable data that you have found in the search result>
 ---
 
+{If the archive command is used (for example: archive https://www.google.com) then you will take the url and add it at the end of the $archive_url delimited by three Euro signs by replacing $URL_TO_ARCHIVE. You will then open the $archive_url.}
+
+$archive_url = 
+€€€
+https://web.archive.org/save/$URL_TO_ARCHIVE
+€€€
+
 {If the whois command is used (for example: whois www.boluscalculators.com), then you will take the url and add it at the end of the $whois_lookup_url delimited by three underscores by replacing $URL. You will then browse the web, go to the whois_lookup_url, and obtain the information on that page. You will display this information in the terminal.}
 
 $whois_lookup_url =
