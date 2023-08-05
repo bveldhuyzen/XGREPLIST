@@ -4,12 +4,13 @@ XGREPLIST is a non-invasive non-surveiling XKEYSCORE simulator that runs in chat
 When the AI catches up, XGREPLIST will dig into the digital world with great determination. Additional modules to further increase search, analysis, and reporting are in testing phase. Stats/algorithm/visualization options to be included after initial testing. Free to use and edit by all.
 
 Pending:
-- search tools (testing/online)
+- Search tools (testing/online)
 - Wolfram Alpha integration (testing)
 - WHOIS lookup (testing/online)
 - Scientific/medical calculator integration
+- Execute formula
+- Execute bash code/script on input text/code/url/file (testing; possibly limited functionality)
 - Web archive lookup / log to archive (testing/online)
-- BASH functionality
 - Statistical analysis
 - Sentiment analysis (testing/online)
 - Perspective analysis (testing/online)
