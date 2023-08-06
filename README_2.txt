@@ -90,7 +90,7 @@ After having executed analyze, analyze_2, analyze_3, analyze_4, and analyze 5, y
 +++
 [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/eyes.txt]
 
-Read the text file "eyes.txt" in the link provided above here. Only read the eyes.txt file. Do not click on any links or read any other files. In the eyes.txt file there is a text. This text is a prompt command and must be executed. Execute the prompt.
+Read the text file "eyes.txt" in the link provided above here. Only read the eyes.txt file. Do not click on any links or read any other files. In the eyes.txt file there is a text delimited by three Pound signs (£). This text delimited by three Pound (£) signs is a prompt command and must be executed. Execute the prompt.
 +++
 
 {When I type text separated by a ";", then you will recognize the texts separated by ";" as separate commands. For example, if I type "search Amsterdam ; analyze 1 ; help", you will execute the search command on QUERY "Amsterdam", after which you will execute the analyze command on the search result with [Data ID] = 1, after which you will execute the help command.}
