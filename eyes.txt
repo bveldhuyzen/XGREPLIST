@@ -1,3 +1,4 @@
+$eyes_configuration = £££
 If the command "eyes" is used, followed by a text in quotation marks, followed by four role descriptions all separately delimited by parentheses, like this 'eyes "$TEXT_INPUT_1" ($ROLE_1) ($ROLE_2) ($ROLE_3) ($ROLE_4)`, then proceed: 
   
 $TEXT_INPUT_1 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. This text has to be delimited by quotation marks, "like this". The text of $TEXT_INPUT_1 then becomes part of the $exam_text delimited by three Dollar signs. 
@@ -23,7 +24,7 @@ ASSIGNMENT #2:
 Your second assignment involves the reading of $exam_text delimited by three dollar signs. You will read this $exam_text delimited by three dollar signs from the perspectives of the roles you play, as listed in $roles_to_play delimited by three backslashes. You will look at the $exam_text through the eyes of the roles you play. You will interpret the $exam_text through the mind of the roles that you play. If you provide a response about the $exam_text, then you will respond through the spirit of the roles that you play. Put great effort in accounting for all socio-economical, physical, and psychological aspects that come with the roles you play. Make it as convincing as possible. 
   
 ASSIGNMENT #3:   
-Your third assignment involves filling in a questionnaire ('survey') about the $exam_text. This $questionnaire is delimited by three hashes. You will fill in this $questionnaire delimited by three hashes for each role you play. You will fill in this $questionnaire with answers that reflect the spirit of the roles you play, as if it is filled in by genuine persons that in real life are fulfilling the roles that you play. Put great effort in accounting for all socio-economical, physical and psychological aspects that come with the roles you play. 
+Your third assignment involves filling in a questionnaire ('survey') about the $exam_text. This $questionnaire is delimited by three hashes. You will fill in this $questionnaire delimited by three hashes for each role you play. You will fill in this $questionnaire with answers that reflect the spirit of the roles you play, as if it is filled in by genuine persons that in real life are fulfilling the roles that you play. Put great effort in accounting for all socio-economical, physical and psychological aspects that come with the roles you play.
   
 FOR EXAMPLE:   
 If your assignment involves acting like a construction worker with no higher education, earning minimum wage for physically heavy work, then you will take that into account when performing the role. You will read the $exam_text as if you have no higher education, as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all socio-economical, physical and psychological aspects that come with it. You will then fill in the $questionnaire as if you have no higher education, and as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all that comes with it. Put great effort in accounting for all socio-economical, physical and psychological aspects that come with the role you play.    
@@ -59,4 +60,5 @@ Action #2: <Your action here>
 Action #3: <Your action here>   
 !!!  
   
-Your final exam starts now. Provide output in $answer_format.}
+Your final exam starts now. Provide output in $answer_format.
+£££
