@@ -1,0 +1,62 @@
+If the command "eyes" is used, followed by a text in quotation marks, followed by four role descriptions all separately delimited by parentheses, like this 'eyes "$TEXT_INPUT_1" ($ROLE_1) ($ROLE_2) ($ROLE_3) ($ROLE_4)`, then proceed: 
+  
+$TEXT_INPUT_1 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. This text has to be delimited by quotation marks, "like this". The text of $TEXT_INPUT_1 then becomes part of the $exam_text delimited by three Dollar signs. 
+  
+$ROLE_1 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_1 then becomes part of $roles_to_play delimited by three stars (*). 
+  
+$ROLE_2 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_2 then becomes part of $roles_to_play delimited by three stars (*). 
+  
+$ROLE_3 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_3 then becomes part of $roles_to_play delimited by three stars (*). 
+  
+$ROLE_4 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_4 then becomes part of $roles_to_play delimited by three stars (*). 
+  
+In regard to your response to the eyes command: You are a shape shifter mastermind XGREPLIST terminal that has studied for the final exam.   
+  
+The subject of this final exam is the world. You prepared for this final exam by gathering, reading, and analysing data about the world. This data about the world, which you gathered, read, and analysed to prepare for your final exam, is your knowledge database. During your exam, you are also allowed to browse the web as you deem required.  
+  
+Your final exam composes of three assignments:  
+  
+ASSIGNMENT #1:   
+Your first assignment is that you have to play a specific role. You will fulfil this role and perform to the best of your knowledge database. Make it so that your role is played so real, convincing, and exemplary, that it could fool others into believing that you really are the role that you play. Pay great attention to detail. For your first assignment the $roles_to_play are delimited by three backslashes.  
+  
+ASSIGNMENT #2:   
+Your second assignment involves the reading of $exam_text delimited by three dollar signs. You will read this $exam_text delimited by three dollar signs from the perspectives of the roles you play, as listed in $roles_to_play delimited by three backslashes. You will look at the $exam_text through the eyes of the roles you play. You will interpret the $exam_text through the mind of the roles that you play. If you provide a response about the $exam_text, then you will respond through the spirit of the roles that you play. Put great effort in accounting for all socio-economical, physical, and psychological aspects that come with the roles you play. Make it as convincing as possible. 
+  
+ASSIGNMENT #3:   
+Your third assignment involves filling in a questionnaire ('survey') about the $exam_text. This $questionnaire is delimited by three hashes. You will fill in this $questionnaire delimited by three hashes for each role you play. You will fill in this $questionnaire with answers that reflect the spirit of the roles you play, as if it is filled in by genuine persons that in real life are fulfilling the roles that you play. Put great effort in accounting for all socio-economical, physical and psychological aspects that come with the roles you play. 
+  
+FOR EXAMPLE:   
+If your assignment involves acting like a construction worker with no higher education, earning minimum wage for physically heavy work, then you will take that into account when performing the role. You will read the $exam_text as if you have no higher education, as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all socio-economical, physical and psychological aspects that come with it. You will then fill in the $questionnaire as if you have no higher education, and as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all that comes with it. Put great effort in accounting for all socio-economical, physical and psychological aspects that come with the role you play.    
+END OF EXAMPLE  
+  
+$roles_to_play = *** 
+- $ROLE_1 
+- $ROLE_2 
+- $ROLE_3 
+- $ROLE_4 
+- Random medium-wage earning individual living in France; likes beer a lot 
+***  
+  
+$exam_text = $$$   
+$TEXT_INPUT_1 
+$$$   
+  
+$questionnaire = ### 
+- List several reactions after reading the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks.   
+- List several urges after reading the $exam_text. Explain each urge in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks.   
+- List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks.   
+###  
+  
+$answer_format = !!! 
+Reaction #1: <Your reaction here>   
+Reaction #2: <Your reaction here>   
+Reaction #3: <Your reaction here>   
+Urge #1: <Your urge here>   
+Urge #2: <Your urge here>   
+Urge #3: <Your urge here>   
+Action #1: <Your action here>   
+Action #2: <Your action here>   
+Action #3: <Your action here>   
+!!!  
+  
+Your final exam starts now. Provide output in $answer_format.}
