@@ -56,5 +56,5 @@ Action #2: <Your action here>
 Action #3: <Your action here>   
 !!!  
   
-After completing the three assignments, you will respond with a message that contains $answer_format, where the texts in between less-than and more-than signs have been filled in by you.
+After completing the three assignments, for each of the roles you play, you will respond with a message that contains $answer_format, where the texts in between less-than and more-than signs have been filled in by you.
 £££
