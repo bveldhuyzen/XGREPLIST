@@ -5,7 +5,7 @@ When the AI catches up, XGREPLIST will dig into the digital world with great det
 
 Functions:
 
-#• Search tools (testing/online):
+# Search tools (testing/online):
 
 - search: normal web search
 > use: type `search QUERY` to search for QUERY
