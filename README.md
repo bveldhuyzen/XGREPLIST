@@ -3,17 +3,66 @@ XGREPLIST is a non-invasive non-surveiling XKEYSCORE simulator that runs in chat
 
 When the AI catches up, XGREPLIST will dig into the digital world with great determination. Additional modules to further increase search, analysis, and reporting are in testing phase. Stats/algorithm/visualization options to be included after initial testing. Free to use and edit by all.
 
-Pending:
-- Search tools (testing/online)
-- Wolfram Alpha integration (testing)
-- WHOIS lookup (testing/online)
+Functions:
+
+#• Search tools (testing/online):
+
+- search: normal web search
+> use: type `search QUERY` to search for QUERY
+> example: search Amsterdam events August 2022
+> requires: at least one web browsing plugin enabled
+
+- xsearch: comprehensive web search
+> use: type `xsearch QUERY` to xsearch for QUERY
+> example: xsearch Russia Ukraine war latest updates
+> requires: at least one web browsing plugin enabled
+
+- wsearch: search Wolfram Alpha
+> use: type `wsearch QUERY` to search Wolfram alpha for QUERY
+> example: wsearch Procalcitonin as additional marker medullary thyroid carcinoma
+> requires: Responsive plugin enabled
+
+- search_FB: search Facebook only
+> use: type `search_FB QUERY` to search for QUERY only on Facebook
+> example: search_FB World Youth Day 2023
+> requires: at least one web browsing plugin enabled
+
+- search_TW: search Twitter only
+> use: type `search_TW QUERY` to search for QUERY only on Twitter
+> example: search_TW Trump latest news
+> requires: at least one web browsing plugin enabled
+
+#• Web tools (testing/online):
+
+- whois: whois on specified URL
+> use: type `whois URL` to obtain whois information on URL
+> example: whois www.openai.com
+> requires: at least one web browsing plugin enabled
+
+- archive: archives specified URL to web archive
+> use: type `archive URL` to archive URL to web archive
+> example: archive https://www.google.com
+> requires: at least one web browsing plugin enabled
+
+# • Analysis tools:
+
+- analyze: performs specified analysis on specified [Data ID]
+> use: type `analyze DATA_ID` to perform analysis on DATA_ID
+> example: analyze 4
+> requires: at least one web browsing plugin enabled
+> NOTE: This analyze function is just a test to test some analysis capabilities, e.g. sentiment analysis; later analyze functions will be more specific
+
+- eyes: performs fully configurable multi-perspective analysis on provided text/input
+> use: type `eyes "TEXT" (ROLE_1) (ROLE_2) (ROLE_3) (ROLE_4)` to perform perspective analysis through the eyes of specified roles/persons/functions/etc. on TEXT. Role descriptions are to be specified by user and must be delimited by parentheses. Role description is to be minimum 1 character and maximum 4000 words.
+> example: eyes "due to the war in Ukraine, all consumable prices are up, but oddly enough the beer price has remained the same all the time" (professor in economics specialized in super markets) (head of Dutch food and consumable regulatory authority) (random medium-wage earning individual in France; likes beer a lot) (CEO of the largest beer brewer in Europe)
+requires: at least one web browsing plugin enabled to load eyes module (if not loaded yet)
+
+#
+
 - Scientific/medical calculator integration
 - Execute formula
-- Execute bash code/script on input text/code/url/file (testing; possibly limited functionality)
-- Web archive lookup / log to archive (testing/online)
+- Execute bash code/script on input text/code/url/file (testing; possibly limited functionality))
 - Statistical analysis
-- Sentiment analysis (testing/online)
-- Perspective analysis (testing/online)
 - Output visualization 
 - Search result validation (lie detector)
 - Data upload / outbound messenger (testing/offline)
