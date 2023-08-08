@@ -79,6 +79,7 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 - Search result validation (lie detector)
 - Data upload / outbound messenger (testing/offline)
 - MDR compliance scanner
+- Code of Conduct compliance scanner
 ...
   
   
