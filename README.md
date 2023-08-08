@@ -13,7 +13,7 @@ Current status:
 
 - SEARCH: normal web search  
 > USE: type `search QUERY` to search for QUERY  
-> EXAMPLE: `search Amsterdam events August 2022`  
+> EXAMPLE: `search Amsterdam events August 2023`  
 > REQUIRES: at least one web browsing plugin enabled
 
 - XSEARCH: comprehensive web search  
