@@ -62,11 +62,18 @@ Role descriptions are to be specified by user and must be delimited by parenthes
 > EXAMPLE: `eyes "due to the war in Ukraine, all consumable prices are up, but oddly enough the beer price has remained the same all the time" (professor in economics specialized in super markets) (head of Dutch food and consumable regulatory authority) (random medium-wage earning individual in France; likes beer a lot) (CEO of the largest beer brewer in Europe)`  
 REQUIRES: at least one web browsing plugin enabled to load eyes module (if not loaded yet; if eyes module is loaded then no plugin's required)
 
+.testing offline
+
 - EXTRACT_EYES: Extracts subjects/objects/etc. (roles/persons/functions/etc.) from URL, text, or [Data ID] to create ROLES for eyes perspective analysis  
 > USE: type `extract_eyes URL/TEXT/DATA_ID` to extract subjects/objects/etc.  
 > EXAMPLE_1: `extract_eyes 2`  
-> EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; eyes 1`  
-> REQUIRES: at least one web browsing plugin enabled for extraction from URL; at least one web browsing plugin enabled to load eyes module (if not loaded yet; if eyes module is loaded then no plugin's required)   
+> EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; xeyes 1`  
+> REQUIRES: ...  
+
+- XEYES: performs fully configurable multi-perspective analysis on provided URL/text/input with perspectives from subjects/objects extracted via EYES_EXTRACT  
+> USE: type `xeyes URL/TEXT/DATA_ID to perform perspective analysis with extracted perspectives  
+> EXAMPLE: `search_TW Trump latest news ; extract_eyes 1 ; extract_eyes 2 ; xeyes 1 ; xeyes 2`  
+> REQUIRES: ...  
 
 
 #Pending / in testing phase
