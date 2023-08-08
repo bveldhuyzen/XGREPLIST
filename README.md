@@ -12,7 +12,7 @@ Current status:
 #Search tools (testing/online):  
 
 - search: normal web search  
-> use: type `search QUERY` to search for QUERY  
+> [b]use[/b]: type `search QUERY` to search for QUERY  
 > example: `search Amsterdam events August 2022`  
 > requires: at least one web browsing plugin enabled
 
