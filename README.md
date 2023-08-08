@@ -2,6 +2,9 @@
 XGREPLIST is a non-invasive non-surveiling XKEYSCORE simulator that runs in chatGPT (and probably others) by prompting the AI to alter behaviour and become a search and analytical tool in the form of a terminal. 
 
 When the AI catches up, XGREPLIST will dig into the digital world with great determination. Additional modules to further increase search, analysis, and reporting are in testing phase. Stats/algorithm/visualization options to be included after initial testing. Free to use and edit by all.
+
+Current status:
+![Alt text](https://github.com/bveldhuyzen/XGREPLIST/blob/main/Screenshot_2023-08-08-05-20-11-565_com.chrome.beta.jpg "Example)
   
   
 # Functions:
