@@ -65,7 +65,7 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 - EXTRACT_EYES: Extracts subjects/objects/etc. (roles/persons/functions/etc.) from URL, text, or [Data ID] to create ROLE for eyes perspective analysis  
 > USE: type `extract_eyes URL/TEXT/DATA_ID` to extract subjects/objects/etc.  
 > EXAMPLE_1: `extract_eyes 2`  
-> EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; ...  
+> EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; eyes 1`  
 > REQUIRES: at least one web browsing plugin enabled for extraction from URL; at least one web browsing plugin enabled to load eyes module (if not loaded yet; if eyes module is loaded then no plugin's required)   
 
 
