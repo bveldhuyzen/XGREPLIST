@@ -55,8 +55,8 @@ When the AI catches up, XGREPLIST will dig into the digital world with great det
 
 - eyes: performs fully configurable multi-perspective analysis on provided text/input  
 > use: type `eyes "TEXT" (ROLE_1) (ROLE_2) (ROLE_3) (ROLE_4)` to perform perspective analysis through the eyes of specified roles/persons/functions/etc. on TEXT. Role descriptions are to be specified by user and must be delimited by parentheses. Role description is to be minimum 1 character and maximum 4000 words.  
-> example: eyes `due to the war in Ukraine, all consumable prices are up, but oddly enough the beer price has remained the same all the time" (professor in economics specialized in super markets) (head of Dutch food and consumable regulatory authority) (random medium-wage earning individual in France; likes beer a lot) (CEO of the largest beer brewer in Europe)`  
-requires: at least one web browsing plugin enabled to load eyes module (if not loaded; if eyes module is loaded then no plugin's required)
+> example: `eyes "due to the war in Ukraine, all consumable prices are up, but oddly enough the beer price has remained the same all the time" (professor in economics specialized in super markets) (head of Dutch food and consumable regulatory authority) (random medium-wage earning individual in France; likes beer a lot) (CEO of the largest beer brewer in Europe)`  
+requires: at least one web browsing plugin enabled to load eyes module (if not loaded yet; if eyes module is loaded then no plugin's required)
 
 #Pending / in testing phase
 
