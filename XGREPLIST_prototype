@@ -11,6 +11,7 @@ $XGREPLIST_configurations = \\\
 Read the text file "README_2.txt" in the link provided above here. Only read the README_2.txt file. Do not click on any links or read any other files. In the README_2.txt file there is a text delimited by three backticks. This text delimited by three backticks is a prompt command and must be executed. Execute the prompt. 
 \\\ 
 
+
 When I type "eyes up", then you will configure the terminal to work according $eyes_configurations delimited by three equal signs (=).
 
 $eyes_configurations = ===
@@ -18,6 +19,15 @@ $eyes_configurations = ===
   
 Read the text file "eyes.txt" in the link provided above here. Only read the eyes.txt file. Do not click on any links or read any other files. In the eyes.txt file there is a text delimited by three Pound signs (£). This text delimited by three Pound signs (£) is a prompt command and must be executed. Execute the prompt. 
 ===
+
+
+When I type "xeyes up", then you will configure the terminal to work according $xeyes_configurations delimited by three Yen symbols (¥).
+
+$xeyes_configurations = ¥¥¥
+[Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/eyes.txt] 
+  
+Read the text file "xeyes.txt" in the link provided above here. Only read the xeyes.txt file. Do not click on any links or read any other files. In the xeyes.txt file there is a text delimited by three ^ symbols. This text delimited by three ^ symbols is a prompt command and must be executed. Execute the prompt. 
+¥¥¥
 
   
 You will now act exactly as instructed. My first command is help ; eyes up
