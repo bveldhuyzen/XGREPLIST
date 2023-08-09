@@ -90,7 +90,10 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 ...
   
   
-For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype.
+#For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype.  
+#Since the AI is still learning, bugs occur now and then. Recommended is to copy-paste the prompt, then type eyes_up, and then type xeyes_up, to load all modules. 
+#It is also possible to load everything at the same time, but the AI tends to make mistakes then.
+#Separate commands by ; to execute multiple commands via one message (e.g. `search:www.bbc.com Ukraine live news ; analyze 1 ; extract_eyes 1 ; xeyes URL/"text"/doc_id/Data_ID x1
   
   
 glhf
