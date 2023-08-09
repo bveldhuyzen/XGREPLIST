@@ -65,12 +65,12 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 - EXTRACT_EYES: Extracts subjects/objects/etc. (roles/persons/functions/etc.) from URL, text, or [Data ID] to create ROLES for eyes perspective analysis  
 > USE: type `extract_eyes URL/TEXT/DATA_ID` to extract subjects/objects/etc.  
 > EXAMPLE_1: `extract_eyes 2`  
-> EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; xeyes 1`  
+> EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; xeyes 1 x1`  
 > REQUIRES: ...  
 
 - XEYES: performs fully configurable multi-perspective analysis on provided URL/text/input with perspectives of subjects/objects extracted via EYES_EXTRACT  
 > USE: type `xeyes URL/TEXT/DATA_ID to perform perspective analysis with extracted perspectives  
-> EXAMPLE: `search_TW Trump latest news ; extract_eyes 1 ; extract_eyes 2 ; xeyes 1 ; xeyes 2`  
+> EXAMPLE: `search_TW Trump latest news ; extract_eyes 1 ; extract_eyes 2 ; xeyes 1 x2; xeyes 2 x1`  
 > REQUIRES: ...  
 
 
