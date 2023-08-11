@@ -70,7 +70,7 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 
 - XEYES: performs fully configurable multi-perspective analysis on provided URL/text/input with perspectives of subjects/objects extracted via EYES_EXTRACT  
 > USE: type `xeyes URL/TEXT/DATA_ID` to perform perspective analysis with extracted perspectives  
-> EXAMPLE: `search_TW Trump latest news ; extract_eyes 1 ; extract_eyes 2 ; xeyes 1 x2; xeyes 2 x1` (performs perspective analysis on [Data_ID] = 1 with perspectives of entities documented in [Data_ID] = 2, and perspective analysis on [Data_ID] = 2 with perspectives of entities logged in [Data_ID] = 2
+> EXAMPLE: `search_TW Trump latest news ; extract_eyes 1 ; extract_eyes 2 ; xeyes 1 x2; xeyes 2 x1` (performs perspective analysis on [Data_ID] = 1 with perspectives of entities documented in [Data_ID] = 2, and perspective analysis on [Data_ID] = 2 with perspectives of entities logged in [Data_ID] = 2  
 > REQUIRES: ...  
 
 
