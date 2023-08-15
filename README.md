@@ -46,7 +46,7 @@ Example (previous version):
 > USE: type `search_LN QUERY` to search for QUERY only on LinkedIn  
 > EXAMPLE: `search_LN John Johnson`  
 > REQUIRES: at least one web browsing plugin enabled  
-> !!NOTE!!: In testing phase / not ready for use yet  
+> !NOTE!: In testing phase / not ready for use yet  
 
 #Web tools (testing/online):  
 
