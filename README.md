@@ -7,7 +7,9 @@ Free to use and edit by all, for the obvious reason.
 
 Current status:  
 ![Model](https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/Screenshot_2023-08-08-05-20-11-565_com.chrome.beta.jpg)  
-  
+
+
+#Separate commands by ; to execute multiple commands via one message (e.g. `search:www.bbc.com Ukraine bombs Crimea bridge ; analyze 1 ; extract_eyes 1 ; xeyes URL/"text"/doc_id/Data_ID x1`  
   
 # Functions:
 
@@ -94,10 +96,8 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
   
 #Since the AI is still learning and slowly catching up with this repo, bugs may occur now and then. Recommended is to copy-paste the prompt `XGREPLIST_prototype`, hit enter, and see if the help function is loaded and displayed correctly. It should load swiftly, but if for some reason it doesn't load or display as intended, then refresh. After help function is loaded correctly, then type `eyes_up`, and then type `xeyes_up`, to load all modules.  
   
-#It is also possible to load everything at the same time by replacing `help` in the initial prompt by `help ; eyes_up ; xeyes_up`, but the AI is still young and might make mistakes then. Also, some of the browsing plugins are of crappy design, which can result in weird looping responses if all modules are loaded at once (improving such crappy plugins will be dealt with later). 
-  
-#Separate commands by ; to execute multiple commands via one message (e.g. `search:www.bbc.com Ukraine bombs Crimea bridge ; analyze 1 ; extract_eyes 1 ; xeyes URL/"text"/doc_id/Data_ID x1`  
-    
-    
+#It is also possible to load everything at the same time by replacing `help` in the initial prompt by `help ; eyes_up ; xeyes_up`, but the AI is still young and might make mistakes then. Also, some of the browsing plugins are of crappy design, which can result in weird looping responses if all modules are loaded at once (improving such crappy plugins will be dealt with later).  
+      
+      
 glhf
 
