@@ -106,7 +106,7 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
   
 #It is also possible to load everything at the same time by replacing `help` in the initial prompt by `help ; eyes_up ; xeyes_up`, but the AI is still young and might make mistakes then. Also, some of the browsing plugins are of crappy design, which can result in weird looping responses if all modules are loaded at once (such crappy plugins will be dealt with later).  
 
-#For prototype of stand-alone fully configurable perspective analyzer see folder perspective_nlzr. Also includes comprehensive web search and extraction functions, to extract perspectives from any source of choice, to create detailed profiles to be used in perspective analysis.  
+#For prototype of stand-alone fully configurable perspective analyzer, see folder perspective_nlzr. Also includes comprehensive web search and extraction functions, to extract perspectives from any source of choice, to create detailed profiles to be used in perspective analysis.  
       
       
 glhf
