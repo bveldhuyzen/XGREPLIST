@@ -29,7 +29,7 @@ Example (previous version):
 
 - WSEARCH: search Wolfram Alpha  
 > USE: type `wsearch QUERY` to search Wolfram alpha for QUERY  
-> EXAMPLE: `wsearch Procalcitonin as additional marker medullary thyroid carcinoma`  
+> EXAMPLE: `wsearch Procalcitonin as additional marker for medullary thyroid carcinoma`  
 > REQUIRES: Responsive plugin enabled  
 
 - SEARCH_FB: search Facebook only  
