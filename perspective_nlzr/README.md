@@ -2,8 +2,8 @@
 
 This folder contains the information that is required to set up a fully configurable multi-perspective analyzer prompt via chatGPT (and possibly others).
 
-# Upgrades currently being tested.
-# For now, preferably use XGREPLIST if perspective analysis is required.
+# Upgrades executed perfectly
+# xeyes is ready for field testing
 
 Several approaches have been tested, of which three are provided here:  
 
@@ -30,9 +30,9 @@ ____
 #Advanced practical example:
 
 - Combine your CV, motivation letter, etc. into one PDF file and upload it to obtain doc_id.  
-- Include full job description as input to be used by perspectives of choice that will review your doc_id.  
-- USE XGREPLIST to search for profiles of employees of $COMPANY involved in hiring procedure (e.g. HR), for managers of department where one is applying, and for CEO / higher management / director.  
-- Use XGREPLIST extract_eyes to extract perspectives from search results. Manually edit perspectives were (deemed) required. For example, use the same perspectives in different states of being (e.g. grumpy, having a hangover, being almost retired, under a lot of stress, etc.) for greater combined quality of results.
+- Include full job description, job requirements, list of preferences, etc., as input (guidelines) to be used by perspectives of choice that will review your doc_id.  
+- Use XGREPLIST to search for information of employees of $COMPANY involved in hiring procedure (e.g. HR), for managers of department where one is applying, and for CEO / higher management / director.
+- Use XGREPLIST extract_eyes to extract perspectives from search results and create detailed profiles. Optionally, one can manually edit profiles were (deemed) required. For example, for greater combined quality of results, use the same perspectives in different states of being (e.g. grumpy, having a hangover, being almost retired, under a lot of stress, etc.).
 
 `xeyes ...`
 
