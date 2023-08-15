@@ -2,6 +2,9 @@
 
 This folder contains the information that is required to set up a fully configurable multi-perspective analyzer prompt via chatGPT (and possibly others).
 
+!! upgrade currently being assembled !!
+!! for now, preferably use XGREPLIST if perspective analysis is required !!
+
 Several approaches have been tested, of which three are provided here:  
 
 1. Prompt only multi-perspective analyzer; for copy-pasting directly into message, or to edit and incorporate in larger prompts (for example see [2]).  
