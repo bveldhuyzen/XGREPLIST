@@ -22,6 +22,7 @@ Your_CV doc_id = 123456789
 Result: [img]
 
 
+____
 
 #Advanced practical example:
 
