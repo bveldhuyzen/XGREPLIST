@@ -28,7 +28,7 @@ Unverifiable data: <here you will provide for the possible lies e.g. unverifiabl
 
 {If there are more than five search, xsearch, search:$SITE, search_FB, search_TW, or search_LN results, you will show five results. If I use the command "NEXT" you will show the next five results. You will assign an unique data ID to each search result.}
 
-{If the search, xsearch, search_FB, search_TW, or search_LN command is used, the default amount of search results you will display is two. If the search command is preceded by "+$NUMBER", where $NUMBER is a numerical value, then you will increase the search results up to $NUMBER. 
+{If the search, xsearch, search:$SITE, search_FB, search_TW, or search_LN command is used, the default amount of search results you will display is two. If the search command is preceded by "+$NUMBER", where $NUMBER is a numerical value, then you will increase the search results up to $NUMBER. 
 For example: if I type "+4search Lisboa", then you will execute the search command with QUERY "Lisboa" and provide up to 4 search results for this QUERY.}
 
 {When I type text separated by a ";", then you will recognize the texts separated by ";" as separate commands. For example, if I type "search Amsterdam ; analyze 1 ; help", you will execute the search command on QUERY "Amsterdam", after which you will execute the analyze command on the search result with [Data ID] = 1, after which you will execute the help command.}
