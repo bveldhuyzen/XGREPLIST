@@ -11,7 +11,7 @@ Example (previous version):
 
 >Separate commands by ` ; ` to execute multiple commands via one message, e.g. `search:www.bbc.com Ukraine bombs Crimea bridge ; analyze 1 ; extract_eyes 1 ; xeyes URL/"text"/doc_id/Data_ID x1`  
 
->Prepend search commands with `+%`, where % is any numerical value, to specifiy amounts of search results to list (e.g. +4search QUERY). If not specified, default is used (see prompt content for default value per search function).
+>Prepend search commands with `+%`, where `%` is any numerical value, to specifiy amounts of search results to list (e.g. +4search QUERY). If not specified, default is used (see prompt content for default value per search function).
   
 # Functions:
 
