@@ -15,7 +15,7 @@ ____
 
 Upload your CV and use the related doc_id to have CV reviewed by any perspectives of choice:
 
-Job application for manager function at $COMPANY's department for handling escalations/complaints not of judicial nature; involves much paperwork and typing/emailing, requires empathy and problem-solving skills. $COMPANY is a manufacturer of electrical heating devices of 
+Job application for manager function at $COMPANY's department for handling escalations/complaints not of judicial nature; involves much paperwork and typing/emailing, requires empathy and problem-solving skills. $COMPANY is a manufacturer of electrical heating devices of medium quality. Complaints are mostly about defective devices due to improper use by user. Low percentage of complaints involves defective device due to manufacturing error, defective device due to improper shipping.
 
 Your_CV doc_id = 123456789
 
