@@ -74,7 +74,7 @@ Role descriptions are to be specified by user and must be delimited by parenthes
 > EXAMPLE: `eyes "due to the war in Ukraine, all consumable prices are up, but oddly enough the beer price has remained the same all the time" (professor in economics specialized in super markets) (head of Dutch food and consumable regulatory authority) (random medium-wage earning individual in France; likes beer a lot) (CEO of the largest beer brewer in Europe)`  
 REQUIRES: at least one web browsing plugin enabled to load eyes module (if not loaded yet; if eyes module is loaded then no plugin's required)
 
-- EXTRACT_EYES: Extracts subjects/objects/etc. (roles/persons/functions/etc.) from URL, text, or [Data ID] to create ROLES for eyes perspective analysis. Extracted perspectives are assigned an [X_ID] (e.g. x1) for further use, e.g. extracted perspective(s) from one text can be used on any other text/input.  
+- EXTRACT_EYES: Extracts subjects/objects/etc. (roles/persons/functions/etc.) from URL, text, or [Data ID] to create ROLES for eyes perspective analysis. Extracted perspectives are assigned an [X_ID] (e.g. x1) for further use, e.g. extracted perspective from one text can be used on any other text/input.  
 > USE: type `extract_eyes URL/TEXT/DATA_ID` to extract subjects/objects/etc.  
 > EXAMPLE_1: `extract_eyes 2`  
 > EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; xeyes 1 x1` (performs perspective analysis on the [Data_ID] with perspectives of the entities extracted from that [Data_ID] (some sort of validation can be done through this)  
@@ -105,7 +105,8 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 #Since the AI is still learning and only slowly catching up with this repo, bugs may occur on rare occasion. Recommended is to copy-paste the prompt `XGREPLIST_prototype`, hit enter, and see if the help function is loaded and displayed correctly. It should load swiftly, but if for some reason it doesn't load or display as intended, then refresh. After help function is loaded correctly, then execute `eyes_up`, and then execute `xeyes_up`, to load all modules.  
   
 #It is also possible to load everything at the same time by replacing `help` in the initial prompt by `help ; eyes_up ; xeyes_up`, but the AI is still young and might make mistakes then. Also, some of the browsing plugins are of crappy design, which can result in weird looping responses if all modules are loaded at once (such crappy plugins will be dealt with later).  
+
+#For prototype of stand-alone fully configurable perspective analyzer see folder perspective_nlzr. Also includes comprehensive web search and extraction functions, to extract perspectives from any source of choice, to create detailed profiles to be used in perspective analysis.  
       
       
 glhf
-
