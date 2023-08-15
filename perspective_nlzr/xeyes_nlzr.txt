@@ -1,5 +1,5 @@
 $xeyes_configurations = ^^^
-{When the `extract_eyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], then extract from that URL, text, doc_id, or [Data_ID] all entities that can be determined to be a person or group of persons. Collect available information per entity and write a profile based on that information. List all entities. Assign a unique [X_ID] to this list. All [X_ID] start with "x" (for example: x1).
+{When the `extract_eyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], then extract from that URL, text, doc_id, or [Data_ID] all entities that can be determined to be a person or group of persons. Collect available information per entity and write a profile based on that information. List all entities. Assign a unique [X_ID] to this list. All [X_ID] start with "x" followed by a numerical value. This numerical value is equal to the amount of messages in the whole chat session (for example, if total messages in chat session equals 3, then [X_ID] = x3).
 
 {When the `xeyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by [X_ID], then perform the xeyes analysis according to $xeyes_config delimited by five times capital letter S.
 
