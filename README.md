@@ -64,15 +64,15 @@ Role descriptions are to be specified by user and must be delimited by parenthes
 > EXAMPLE: `eyes "due to the war in Ukraine, all consumable prices are up, but oddly enough the beer price has remained the same all the time" (professor in economics specialized in super markets) (head of Dutch food and consumable regulatory authority) (random medium-wage earning individual in France; likes beer a lot) (CEO of the largest beer brewer in Europe)`  
 REQUIRES: at least one web browsing plugin enabled to load eyes module (if not loaded yet; if eyes module is loaded then no plugin's required)
 
-- EXTRACT_EYES: Extracts subjects/objects/etc. (roles/persons/functions/etc.) from URL, text, or [Data ID] to create ROLES for eyes perspective analysis  
+- EXTRACT_EYES: Extracts subjects/objects/etc. (roles/persons/functions/etc.) from URL, text, or [Data ID] to create ROLES for eyes perspective analysis. Extracted perspectives are assigned an [X_ID] (e.g. x1) for further use, e.g. extracted perspective from one text can be used on any other text/input.  
 > USE: type `extract_eyes URL/TEXT/DATA_ID` to extract subjects/objects/etc.  
 > EXAMPLE_1: `extract_eyes 2`  
 > EXAMPLE_2: `xsearch Ukraine war latest updates ; extract_eyes 1 ; xeyes 1 x1` (performs perspective analysis on the [Data_ID] with perspectives of the entities extracted from that [Data_ID] (some sort of validation can be done through this)  
 > REQUIRES: ...  
 
 - XEYES: performs fully configurable multi-perspective analysis on provided URL/text/input with perspectives of subjects/objects extracted via EYES_EXTRACT  
-> USE: type `xeyes URL/TEXT/DATA_ID` to perform perspective analysis with extracted perspectives  
-> EXAMPLE: `search_TW Trump latest news ; extract_eyes 1 ; extract_eyes 2 ; xeyes 1 x2; xeyes 2 x1` (performs perspective analysis on [Data_ID] = 1 with perspectives of entities documented in [Data_ID] = 2, and perspective analysis on [Data_ID] = 2 with perspectives of entities logged in [Data_ID] = 2  
+> USE: type `xeyes URL/TEXT/DATA_ID [X_ID]` to perform perspective analysis with extracted perspectives on specified input.  
+> EXAMPLE: `+2search_TW Trump laywer shady ; extract_eyes 1 ; extract_eyes 2 ; xeyes 1 x2; xeyes 2 x1` (performs perspective analysis on [Data_ID] = 1 with perspectives of entities extracted from [Data_ID] = 2, and performs perspective analysis on [Data_ID] = 2 with perspectives of entities extracted from [Data_ID] = 1  
 > REQUIRES: ...  
 
 
@@ -87,16 +87,16 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 - Data upload / outbound messenger (testing/offline)
 - MDR compliance scanner
 - Code of Conduct compliance scanner
-...
+- Total application redundancy (testing/offline)
    
     
 #For prototype use/testing, enable web browsing on the AI, and copy-paste the prompt from XGREPLIST_prototype.  
   
-#Since the AI is still learning, bugs occur now and then. Recommended is to copy-paste the prompt, then type eyes_up, and then type xeyes_up, to load all modules.  
+#Since the AI is still learning and slowly catching up with this repo, bugs may occur now and then. Recommended is to copy-paste the prompt `XGREPLIST_prototype, hit enter see if the help function is used correctly. It should load swiftly, but if for some reason it doesn't, then refresh. After help function is loaded correctly, then type `eyes_up`, and then type `xeyes_up`, to load all modules.  
   
-#It is also possible to load everything at the same time, but the AI tends to make mistakes then.  
+#It is also possible to load everything at the same time by replacing `help` in the initial prompt by `help ; eyes_up ; xeyes_up`, but the AI is still young and might make mistakes then. Also, some of the browsing plugins are of crappy design, which can result in weird looping responses if all modules are loaded at once (improving such crappy plugins will be dealt with later). 
   
-#Separate commands by ; to execute multiple commands via one message (e.g. `search:www.bbc.com Ukraine live news ; analyze 1 ; extract_eyes 1 ; xeyes URL/"text"/doc_id/Data_ID x1`  
+#Separate commands by ; to execute multiple commands via one message (e.g. `search:www.bbc.com Ukraine bombs Crimea bridge ; analyze 1 ; extract_eyes 1 ; xeyes URL/"text"/doc_id/Data_ID x1`  
     
     
 glhf
