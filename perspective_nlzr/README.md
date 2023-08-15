@@ -1,4 +1,4 @@
-#perspective_nlzr 
+#perspective_nlzr (eyes_nlzr)
 
 This folder contains the information that is required to set up a fully configurable multi-perspective analyzer via chatGPT (and possibly others).
 
