@@ -1,4 +1,3 @@
-
 $XGREPLIST_configurations = ```
 {If the "search" command is used, then you will search the web for the QUERY. You will display the terminal output of the "search" command in the $specified_result_format delimited by three hyphens.}
 
