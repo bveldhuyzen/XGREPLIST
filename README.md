@@ -32,15 +32,21 @@ Example (previous version):
 > EXAMPLE: `wsearch Procalcitonin as additional marker for medullary thyroid carcinoma`  
 > REQUIRES: Responsive plugin enabled  
 
-- SEARCH_FB: search Facebook only  
+- SEARCH_FB: search Facebook  
 > USE: type `search_FB QUERY` to search for QUERY only on Facebook  
 > EXAMPLE: `search_FB World Youth Day 2023`  
 > REQUIRES: at least one web browsing plugin enabled  
 
-- SEARCH_TW: search Twitter only  
+- SEARCH_TW: search Twitter  
 > USE: type `search_TW QUERY` to search for QUERY only on Twitter  
 > EXAMPLE: `search_TW Trump latest news`  
 > REQUIRES: at least one web browsing plugin enabled  
+
+- SEARCH_LN: search LinkedIn  
+> USE: type `search_LN QUERY` to search for QUERY only on LinkedIn  
+> EXAMPLE: `search_LN John Johnson`  
+> REQUIRES: at least one web browsing plugin enabled  
+> !!NOTE!!: In testing phase / not ready for use yet  
 
 #Web tools (testing/online):  
 
