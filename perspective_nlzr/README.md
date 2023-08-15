@@ -3,7 +3,7 @@
 This folder contains the information that is required to set up a fully configurable multi-perspective analyzer via chatGPT (and possibly others).
 
 _Upgrades executed perfectly_    
-_Ready for field testing_   
+_eyes_nlzr ready for field testing_   
 
 Several approaches have been tested, of which three are provided here:  
 
