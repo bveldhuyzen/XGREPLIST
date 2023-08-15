@@ -1,6 +1,6 @@
 #perspective_nlzr 
 
-This folder contains the information that is required to set up a fully configurable multi-perspective analyzer prompt via chatGPT (and possibly others).
+This folder contains the information that is required to set up a fully configurable multi-perspective analyzer via chatGPT (and possibly others).
 
 # Upgrades executed perfectly
 # xeyes is ready for field testing
