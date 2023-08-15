@@ -17,7 +17,7 @@ Upload your CV and use the related doc_id to have CV reviewed by any perspective
 
 >Full Job description:  
 >
->Looking for competent complaint manager at $COMPANY's department for handling escalations/complaints not of judicial nature. Involves much paperwork and typing/email to address customer concerns and complaints. Requires empathy, problem-solving skills, and ability to address customer complaints within SLA. $COMPANY is a manufacturer of electrical heating devices of medium quality for household purposes. Complaints are mostly about defective devices due to improper use by user. Low percentage of complaints involves defective device due to manufacturing error, or to defective device due to improper shipping. On very rare occasion complaint is received.of judicial nature; complaint manager is to recognize these and submit to legal department.  
+>Looking for competent complaint manager at $COMPANY's department for handling escalations/complaints not of judicial nature. Involves much paperwork and typing/email to address customer concerns and complaints. Requires empathy, problem-solving skills, and ability to address customer complaints within SLA. $COMPANY is a manufacturer of electrical heating devices of medium quality for household purposes. Complaints are mostly about defective devices due to improper use by user. Low percentage of complaints involves defective device due to manufacturing error, or to defective device due to improper shipping. On very rare occasion complaint is received of judicial nature; complaint manager is to recognize these and submit to legal department.  
 >  
 > List of requirements here  
 > List of preferences here  
