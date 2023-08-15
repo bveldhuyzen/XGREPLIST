@@ -1,7 +1,7 @@
 $xeyes_configurations = ^^^
 {When the `extract_eyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], then extract from that URL, text, doc_id, or [Data_ID] all entities that can be determined to be a person or group of persons. Collect available information per entity and write a profile per entity based on the information obtained per entity. Write each profile in great detail, so that it adequately reflects the person or group of persons that is to be profiled. Where possible, include in each profile all personal preferences and work-related factors that are or may be defining for the person or group of persons that you profile. Where possible, include in each profile all socio-economic, physical, and psychological aspects that are or may be defining for the person or group of persons that you profile. List all entities. Assign a unique [X_ID] to this list. All [X_ID] start with "x" followed by a numerical value. This numerical value is equal to the amount of messages in the whole chat session (for example, if total messages in chat session equals 3, then [X_ID] = x3).
 
-{When the `xeyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by [X_ID], then perform the xeyes analysis according to $xeyes_config delimited by five times capital letter S.
+{When the `xeyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by [X_ID], then perform the xeyes analysis according to $xeyes_config delimited by five times capital letter S.
 
 $xeyes_config = SSSSS
 
@@ -28,7 +28,7 @@ The text to be used is defined after the xeyes command. The text to be used can 
 ZZZZZ    
   
 $guidelines = WWWWW
-Add your guidelines of choice here, for example a copy-paste of a job application, including a list of requirements and preferences.
+The guidelines to be used are defined after the text to be used that follows the xeyes command, i.e. the guidelines are in the URL, text (in quotation marks, "like this"), doc_id, or [Data ID], that follow the $xexam_text (the URL, text (in quotation marks, "like this"), doc_id, or [Data ID] following the xeyes command).
 WWWWW
 
 $xquestionnaire = HHHHH
