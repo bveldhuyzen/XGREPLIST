@@ -2,8 +2,8 @@
 
 This folder contains the information that is required to set up a fully configurable multi-perspective analyzer via chatGPT (and possibly others).
 
-!Upgrades executed perfectly
-!xeyes is ready for field testing
+!!Upgrades executed perfectly  
+!!Ready for field testing  
 
 Several approaches have been tested, of which three are provided here:  
 
