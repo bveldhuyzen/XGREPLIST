@@ -28,7 +28,7 @@ ____
 
 - Combine your CV, motivation letter, etc. into one PDF file and upload it to obtain doc_id.  
 - Include full job description as input to be used by perspectives of choice that will review your doc_id.  
-- USE XGREPLIST search_TW, search_FB, and/or search_LN to search for profiles of employees of $COMPANY involved in hiring procedure (e.g. HR), for managers of department where one is applying, and for CEO / higher management / director.  
+- USE XGREPLIST to search for profiles of employees of $COMPANY involved in hiring procedure (e.g. HR), for managers of department where one is applying, and for CEO / higher management / director.  
 - Use XGREPLIST extract_eyes to extract perspectives from search results. Manually edit perspectives were (deemed) required. For example, use the same perspectives in different states of being (e.g. grumpy, having a hangover, being almost retired, under a lot of stress, etc.) for greater combined quality of results.
 
 `xeyes ...`
