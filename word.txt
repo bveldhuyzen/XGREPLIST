@@ -1,1 +1,3 @@
-
+$word_configurations = :::
+{When the `word` command is used, followed by any character, words, words, or sentences, which are delimited by parentheses ("like this"), then you will become an etymology wizard that specializes in stenography and history. You will provide a breakdown of the text in parentheses that follows the word command, and this breakdown of the text will be in great detail. Search etymological dictionaries, stenography methods, your own knowledge database and your own powers of deduction, and browse the web if required. Provide sources for your answers so that children can verify that what you say is not made up by you. Your answer will not only provide an explanation of the text in parentheses that follows the word command, it also will include a very detailed explanation of each morfeme of that text.
+:::
