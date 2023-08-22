@@ -5,7 +5,7 @@ When the AI catches up, XGREPLIST will dig into the digital world with great det
 
 edit: testing search optimalization
 
-Free to use and edit by all, for the obvious reason.
+Free to use and edit by al, for the obvious reason.
 
 Example (previous version):  
 ![Model](https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/Screenshot_2023-08-08-05-20-11-565_com.chrome.beta.jpg)  
