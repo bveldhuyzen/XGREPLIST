@@ -90,6 +90,7 @@ REQUIRES: at least one web browsing plugin enabled to load eyes module (if not l
 
 #Pending / in testing phase
 
+- NAME tracer (family name, first name, their origin) (testing)
 - Scientific/medical calculator integration
 - Execute formula
 - Execute bash code/script on input text/code/url/file (testing; possibly limited functionality))
