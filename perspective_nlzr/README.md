@@ -12,6 +12,13 @@ Several approaches have been tested, of which three are provided here:
   
 ____
 
+# Instructions for use
+
+The instructions for use are frequently changing, as updates/upgrades and the implementation of new functions/commands are ongoing. Since prompts are easy to read and understand by the general public, the release of instructions for use is on hold until search optimalization is complete.
+
+EDIT 30 Aug 2023: i.e. just read the prompts, or wait a few days.
+
+----
 
 #Basic practical example:
 
