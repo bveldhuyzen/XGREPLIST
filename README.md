@@ -1,6 +1,6 @@
 # XGREPLIST
 
-NOTE: Use at your own discretion. If banned from chatGPT for violating policy it is your own fault.
+NOTE: Use at your own discretion. If banned from chatGPT (and/or others) for violating policy, then it is probably your own fault.
 
 XGREPLIST is a non-invasive non-surveiling XKEYSCORE simulator that runs in chatGPT (and probably others) by prompting the AI to alter behaviour and become a search and analytical tool in the form of a terminal. 
 
