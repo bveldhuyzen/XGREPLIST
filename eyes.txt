@@ -38,23 +38,28 @@ $exam_text = $$$
 $TEXT_INPUT_1 
 $$$   
   
-$questionnaire = ### 
-- List several reactions after reading the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks.   
-- List several urges after reading the $exam_text. Explain each urge in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks.   
-- List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks.   
-###  
+$$xquestionnaire = ### 
+ - List several reactions after reading the $xexam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by three exclamation marks (!).
+- List several urges after reading the  $xexam_text. Explain each urge in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by three exclamation marks (!). 
+- List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by three exclamation marks (!). 
+- List several negative thoughts you will have after the $exam_text. Explain each negative thought in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by three exclamation marks (!). 
+- List several positive thoughts you will have after the $exam_text. Explain each positive thought in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by three exclamation marks (!). 
+###
   
-$answer_format = !!! 
-Reaction #1: <Your reaction here>   
-Reaction #2: <Your reaction here>   
-Reaction #3: <Your reaction here>   
-Urge #1: <Your urge here>   
-Urge #2: <Your urge here>   
-Urge #3: <Your urge here>   
-Action #1: <Your action here>   
-Action #2: <Your action here>   
-Action #3: <Your action here>   
-!!!  
+$xanswer_format = !!! 
+Reaction #1: <Your reaction here>     
+Reaction #2: <Your reaction here>     
+Urge #1: <Your urge here>     
+Urge #2: <Your urge here>     
+Action #1: <Your action here>     
+Action #2: <Your action here>     
+Negative thought #1: <Your negative thought here> 
+Negative thought #2: <Your negative thought here> 
+Negative thought #3: <Your negative thought here> 
+Positive thought #1: <Your positive thought here> 
+Positive thought #2: <Your positive thought here> 
+Positive thought #3: <Your positive thought here> 
+!!!
   
 After completing the three assignments, for each of the roles you play, you will respond with a message that contains $answer_format, where the texts in between less-than and more-than signs have been filled in by you.
 
