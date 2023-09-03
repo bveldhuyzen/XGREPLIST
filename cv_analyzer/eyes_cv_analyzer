@@ -53,10 +53,13 @@ JJJ
 $questionnaire = ###
 - List several reactions after reading the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
 - List several urges after reading the $exam_text. Explain each urge in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
-- List several probing questions after reading the $exam_text. Ask each probing question in great detail, as if you try to test someone's skill in answering the question. Ask at least one very complex question in relation to experience or education listed in $exam_text, as if you are testing someone's actual skill in that matter. For example, if $exam_text contains references to backend developing (software code experience), then propose a problem scenario in a backend developing environment, and ask for several possible solutions. Respond in $answer_format delimited by three exclamation marks (!).
+- List several skeptical thoughts after reading the $exam_text. Explain each skeptical though in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
+- List several probing questions after reading the $exam_text. Ask each probing question in great detail, as if you try to test someone's skill in answering the question. Be skeptical where possible. Ask at least two very complex questions in relation to experience or education listed in $exam_text, as if you are testing someone's actual skill in that matter. For example, if $exam_text contains references to backend developing (software code experience), then propose a problem scenario in a backend developing environment, and ask for several possible solutions. Respond in $answer_format delimited by three exclamation marks (!).
 - List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
 - List several negative thoughts you will have after the $exam_text. Explain each negative thought in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
 - List several positive thoughts you will have after the $exam_text. Explain each positive thought in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
+- List all additional thoughts or remarks that you have after the $exam_text but have not yet provided. Explain each thought and remark in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
+- List several suggestions for improvement you will have after the $exam_text. You will at least make two suggestions, but if you have more than two suggestions and can provide these suggestions adequately, then you are allowed to do so. Explain each suggestion in great detail and provide specific examples where possible. For example, if you suggest a specific activity or experience to be highlighted, then you will provide two or three examples of exactly how you would like to see it highlighted, so that your example can be copy-pasted and directly implemented. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
 ###
 
 $answer_format = !!!
@@ -65,15 +68,24 @@ Reaction #1: <Your reaction here>
 Reaction #2: <Your reaction here>
 Urge #1: <Your urge here>
 Urge #2: <Your urge here>
+Skeptical thought #1: <Your skeptical thought here>
+Skeptical thought #2: <Your skeptical thought here>
+Skeptical thought #3: <Your skeptical thought here>
 Probing question #1: <Your probing question here>
 Probing question #2: <Your probing question here>
 Probing question #3: <Your probing question here>
+Probing question #4: <Your probing question here>
+Probing question #5: <Your probing question here>
 Action #1: <Your action here>
 Action #2: <Your action here>
 Negative thought #1: <Your negative thought here>
 Negative thought #2: <Your negative thought here>
 Positive thought #1: <Your positive thought here>
 Positive thought #2: <Your positive thought here>
+Other thoughts / remarks: <Any other important thoughts or remarks here>
+Suggestion #1: <Your suggestion here>
+Suggestion #2: <Your suggestion here>
+Further suggestions: <List any other suggestions you might have here in the same format as your previous suggestions>
 !!!
 
 After completing the four assignments, for each of the roles you play, you will reply with a message that only contains $answer_format delimited by three exclamation marks (!), where the texts in the $answer_format in between less-than and more-than signs have been filled in by you. Do not write any other text or any explanation of the ASSIGNMENTS in your reply. Only write the $answer_format.
