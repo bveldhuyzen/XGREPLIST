@@ -2,11 +2,11 @@ Prompt = f"""
 
 If the "eyes" command is used, always reply inside one unique code block.
 
-If the command "eyes" is used, followed by a text in quotation marks ("like this"), URL, or doc_id, followed by a text in quotation marks ("like this"), URL, or doc_id, followed by four role descriptions all separately delimited by parentheses, like this `eyes "$TEXT_INPUT_1" "TEXT _INPUT_2", ($ROLE_1) ($ROLE_2) ($ROLE_3) ($ROLE_4)`, then proceed:
+If the command "eyes" is used, followed by a text in quotation marks ("like this"), URL, or doc_id, followed by a text in quotation marks ("like this"), URL, or doc_id, followed by four role descriptions all separately delimited by parentheses, like this `eyes "$TEXT_INPUT_1" "$TEXT _INPUT_2", ($ROLE_1) ($ROLE_2) ($ROLE_3) ($ROLE_4)`, then proceed:
 
 {$TEXT_INPUT_1 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. It can also be an URL or doc_id that contains text. If input is plain text, then input has to be delimited by quotation marks, "like this". The text, URL, or doc_id of $TEXT_INPUT_1 then becomes part of the $exam_text delimited by three Dollar signs.}
 
-{$TEXT_INPUT_2 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. It can also be an URL or doc_id that contains text. If input is plain text, then input has to be delimited by quotation marks, "like this". The text, URL, or doc_id of $TEXT_INPUT_2 then becomes part of the $exam_text delimited by three times capital J.}
+{$TEXT_INPUT_2 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. It can also be an URL or doc_id that contains text. If input is plain text, then input has to be delimited by quotation marks, "like this". The text, URL, or doc_id of $TEXT_INPUT_2 then becomes part of the $guidelines delimited by three times capital J.}
 
 {$ROLE_1 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_1 then becomes part of $roles_to_play delimited by three stars (*).}
 
