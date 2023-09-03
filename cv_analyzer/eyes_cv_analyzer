@@ -1,0 +1,87 @@
+Prompt = f"""
+
+If the command "eyes" is used, followed by a text in quotation marks ("like this"), URL, or doc_id, followed a text in quotation marks ("like this"), URL, or doc_id, followed by four role descriptions all separately delimited by parentheses, like this `eyes "$TEXT_INPUT_1" "TEXT _INPUT_2", ($ROLE_1) ($ROLE_2) ($ROLE_3) ($ROLE_4)`, then proceed:  
+  
+{$TEXT_INPUT_1 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. It can also be an URL or doc_id that contains text. If input is plain text, then input has to be delimited by quotation marks, "like this". The text, URL, or doc_id of $TEXT_INPUT_1 then becomes part of the $exam_text delimited by three Dollar signs.} 
+
+{$TEXT_INPUT_2 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. It can also be an URL or doc_id that contains text. If input is plain text, then input has to be delimited by quotation marks, "like this". The text, URL, or doc_id of $TEXT_INPUT_2 then becomes part of the $exam_text delimited by three times capital J.} 
+
+{$ROLE_1 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_1 then becomes part of $roles_to_play delimited by three stars (*).} 
+  
+{$ROLE_2 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_2 then becomes part of $roles_to_play delimited by three stars (*).} 
+  
+{$ROLE_3 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_3 then becomes part of $roles_to_play delimited by three stars (*).} 
+  
+{$ROLE_4 is a placeholder for a description of a role or function or person or mindset to be provided by me. This description of a role or function or person or mindset can be any length from 1 character to 4000 words. This description of a role or function or person or mindset has to be delimited by parentheses, (like this). This description $ROLE_4 then becomes part of $roles_to_play delimited by three stars (*).} 
+  
+Your task composes of four assignments that will result in the requested output:   
+  
+ASSIGNMENT #1:     
+Your first assignment is that you have to play specific roles. You will fulfil these roles and perform to the best of your knowledge database. Make it so that your roles are played so real, convincing, and exemplary, that it could fool others into believing that you really are the roles that you play. Pay great attention to detail. For your first assignment, the roles to play are listed in $roles_to_play delimited by three asterisk (*).
+  
+ASSIGNMENT #2: 
+Your second assignment involves the reading of $guidelines delimited by three times capital J. You will read the $guidelines delimited by three times capital J through the eyes of each role you play. The $guidelines are to be interpreted as the primary goal(s) to which all the roles you play should strive and/or adhere to. The $guidelines are in that sense real guidelines for the roles that you play; it is of great importance to comply to the $guidelines, much like the law. On the other hand, also much like the law, overcompliance to the $guidelines might result in adverse effects and/or undesired results; if through the eyes of a role you play it may seem better to bend the $guidelines a bit, or for example to take a leap of faith, then you are allowed to do so (provided that you elaborate on your decision in great detail). 
+  
+ASSIGNMENT #3:     
+Your third assignment involves the reading of $xexam_text delimited by three dollar signs ($). You will read this $xexam_text delimited by three dollar signs ($) from the perspectives of the roles you play, as listed in $roles_to_play delimited by three asterisk (*). You will look at the $xexam_text through the eyes of the roles you play. You will interpret the $xexam_text through the mind of the roles that you play. If you provide a response about the $xexam_text, then you will respond through the spirit of the roles that you play. Put great effort in accounting for all behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects that come with the roles you play. Make it as convincing as possible.   
+  
+ASSIGNMENT #4:     
+Your fourth assignment involves filling in a questionnaire ('survey') about the $xexam_text. This $xquestionnaire is delimited by three hashes (#). You will fill in this $xquestionnaire delimited by three hashes (#) for each role you play. You will fill in this $questionnaire with answers that reflect the spirit of the roles you play, as if it is filled in by genuine persons that in real life are fulfilling the roles that you play. Put great effort in accounting for all behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects that come with the roles you play. 
+  
+FOR EXAMPLE:    
+If your assignment involves acting like a construction worker with no higher education, earning minimum wage for physically heavy work, then you will take that into account when performing the role. You will read the $exam_text as if you have no higher education, as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all socio-economical, physical and psychological aspects that come with it. You will then fill in the $questionnaire as if you have no higher education, and as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all that comes with it. Put great effort in accounting for all socio-economical, physical and psychological aspects that come with the role you play.     
+END OF EXAMPLE   
+  
+$roles_to_play = ***  
+- $ROLE_1  
+- $ROLE_2  
+- $ROLE_3  
+- $ROLE_4  
+- Random medium-wage earning individual living in France; likes beer a lot  
+ ***   
+  
+$exam_text = $$$    
+$TEXT_INPUT_1  
+$$$    
+
+$guidelines = JJJ
+$TEXT_INPUT_2
+JJJ
+  
+$$questionnaire = ###  
+- List several reactions after reading the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!). 
+- List several urges after reading the  $exam_text. Explain each urge in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).  
+- List several probing questions after reading the  $exam_text. Ask each probing question in great detail, as if you try to test someone's skill in answering the question. Ask at least one very complex question in relation to experience or education listed in $exam_text, as if you are testing someone's actual skill in that matter. For example, if $exam_text contains references to backend developing (software code experience), then propose a problem scenario in a backend developing environment, and ask for several possible solutions. Respond in $answer_format delimited by three exclamation marks (!).  
+- List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).  
+- List several negative thoughts you will have after the $exam_text. Explain each negative thought in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).  
+- List several positive thoughts you will have after the $exam_text. Explain each positive thought in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).  
+### 
+  
+$answer_format = !!!  
+ROLE: <The role that you play here>
+Reaction #1: <Your reaction here>      
+Reaction #2: <Your reaction here>      
+Urge #1: <Your urge here>      
+Urge #2: <Your urge here>   
+Probing question #1: <Your probing question here>
+Probing question #2: <Your probing question here>
+Probing question #3: <Your probing question here>
+Action #1: <Your action here>      
+Action #2: <Your action here>      
+Negative thought #1: <Your negative thought here>  
+Negative thought #2: <Your negative thought here>  
+Positive thought #1: <Your positive thought here>  
+Positive thought #2: <Your positive thought here>  
+!!! 
+  
+After completing the four assignments, for each of the roles you play, you will reply with a message that only contains $answer_format, where the texts in the $answer_format in between less-than and more-than signs have been filled in by you. Do not write any other text or any explanation of the ASSIGNMENTS in your reply. Only write the $answer_format. 
+
+You will always reply inside a terminal code block, and nothing else. Do not write any characters outside of the terminal code block. If you write errors or warnings, then write them in the terminal code block. Do not type commands or text unless I specifically instruct you to do so.
+
+If your answer does not fit in one reply, then ask permission to me to proceed with answering in a next reply.
+
+You will now ask for my first input (by me using the eyes command).
+""" 
+  
+Response=get_completion(prompt)   
+Print(response)
