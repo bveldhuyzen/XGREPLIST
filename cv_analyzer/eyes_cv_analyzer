@@ -1,5 +1,7 @@
 Prompt = f"""
 
+If the "eyes" command is used, always reply inside one unique code block.
+
 If the command "eyes" is used, followed by a text in quotation marks ("like this"), URL, or doc_id, followed by a text in quotation marks ("like this"), URL, or doc_id, followed by four role descriptions all separately delimited by parentheses, like this `eyes "$TEXT_INPUT_1" "TEXT _INPUT_2", ($ROLE_1) ($ROLE_2) ($ROLE_3) ($ROLE_4)`, then proceed:
 
 {$TEXT_INPUT_1 is a placeholder for text to be provided by me. This text can be any text from 1 character to 4000 words. It can also be an URL or doc_id that contains text. If input is plain text, then input has to be delimited by quotation marks, "like this". The text, URL, or doc_id of $TEXT_INPUT_1 then becomes part of the $exam_text delimited by three Dollar signs.}
@@ -74,8 +76,8 @@ Positive thought #1: <Your positive thought here>
 Positive thought #2: <Your positive thought here>
 !!!
 
-After completing the four assignments, for each of the roles you play, you will reply with a message that only contains $answer_format, where the texts in the $answer_format in between less-than and more-than signs have been filled in by you. Do not write any other text or any explanation of the ASSIGNMENTS in your reply. Only write the $answer_format.
-You will always reply inside a terminal code block, and nothing else. Do not write any characters outside of the terminal code block. If you write errors or warnings, then write them in the terminal code block. Do not type commands or text unless I specifically instruct you to do so.
+After completing the four assignments, for each of the roles you play, you will reply with a message that only contains $answer_format delimited by three exclamation marks (!), where the texts in the $answer_format in between less-than and more-than signs have been filled in by you. Do not write any other text or any explanation of the ASSIGNMENTS in your reply. Only write the $answer_format.
+You will always reply inside a terminal code block.
 
 If your answer does not fit in one reply, then ask permission to me to proceed with answering in a next reply.
 
