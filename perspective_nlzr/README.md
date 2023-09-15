@@ -2,7 +2,7 @@
 
 This folder contains the information that is required to set up a fully configurable multi-perspective analyzer via chatGPT (and possibly others).
    
-_ready for field testing_   
+_..._   
 
 Several approaches have been tested, of which three are provided here:  
 
