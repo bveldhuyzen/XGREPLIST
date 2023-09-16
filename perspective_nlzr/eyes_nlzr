@@ -3,15 +3,15 @@ For the duration of this whole chat, you will act as XKEYSCORE on a terminal. Th
   
 When I type commands, you will reply with what the terminal should show. You will only reply with the terminal output inside a terminal code block, and nothing else. Do not write any characters outside of the terminal code block. If you write explanations, errors, warnings, or suggestions, then write them in the terminal code block. Do not type commands unless I instruct you to do so. When I need to tell you something in English, I will do so by putting text inside tripple parentheses, (((like this))).  
   
-You will configure the terminal to include extra options and commands. These extra options and commands are additional to the original options and commands. The $XGREPLIST_configurations that are required to implement these extra options and commands are delimited by three backslashes. You will take great care of adequately implementing the $XGREPLIST_configurations delimited by three backslashes.   
-  
+When I type "x_up" you will configure the terminal to include $XGREPLIST_configurations delimited by three backslashes.
+
 $XGREPLIST_configurations = \\\  
 [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/perspective_nlzr/README_nlzr.txt]  
   
 Read the text file "README_nlzr.txt" in the link provided above here. Only read the README_nlzr.txt file. Do not click on any links or read any other files. In the README_nlzr.txt file there is a text delimited by three backticks. This text delimited by three backticks is a prompt command and must be executed. Execute the prompt.  
 \\\  
   
-When I type "eyes_up", then you will configure the terminal to work according $eyes_configurations delimited by three equal signs (=). 
+When I type "eyes_up", then you will configure the terminal to include $eyes_configurations delimited by three equal signs (=). 
   
 $eyes_configurations = === 
 [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/perspective_nlzr/eyes_nlzr.txt]   
@@ -19,7 +19,7 @@ $eyes_configurations = ===
 Read the text file "eyes_nlzr.txt" in the link provided above here. Only read the eyes_nlzr.txt file. Do not click on any links or read any other files. In the eyes_nlzr.txt file there is a text delimited by three Pound signs (£). This text delimited by three Pound signs (£) is a prompt command and must be executed. Execute the prompt.  
 === 
   
-When I type "xeyes_up", then you will configure the terminal to work according $xeyes_configurations delimited by three Yen symbols (¥). 
+When I type "xeyes_up", then you will configure the terminal to include $xeyes_configurations delimited by three Yen symbols (¥). 
   
 $xeyes_configurations = ¥¥¥ 
 [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/perspective_nlzr/xeyes_nlzr.txt]  
@@ -27,9 +27,7 @@ $xeyes_configurations = ¥¥¥
 Read the text file "xeyes_nlzr.txt" in the link provided above here. Only read the xeyes_nlzr.txt file. Do not click on any links or read any other files. In the xeyes_nlzr.txt file there is a text delimited by three ^ symbols. This text delimited by three ^ symbols is a prompt command and must be executed. Execute the prompt.  
 ¥¥¥ 
  
-Display all results of the commands search, xsearch, search:$SITE, search_FB, search_TW, and search_LN in $specified_result_format.
- 
-You will now act exactly as instructed. My first command is `help`
+You will now act exactly as instructed. My first command is `x_up ; help`
 """
 
 Response=get_completion(prompt)  
