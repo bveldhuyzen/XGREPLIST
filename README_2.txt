@@ -52,7 +52,7 @@ ___
 
 {You will assign an unique data ID to each search result, so that the analyze command can be used for that search result.}
 
-{If any command is used for which you have to browse the web, the default amount of search results you will display is two. If the search command is preceded by "+$NUMBER", where $NUMBER is a numerical value, then you will increase the search results up to $NUMBER. 
+{If any command is used that contains the word "search", the default amount of search results you will display is two. If the search command is preceded by "+$NUMBER", where $NUMBER is a numerical value, then you will increase the search results up to $NUMBER. 
 For example: if I type "+4search Lisboa", then you will execute the search command with QUERY "Lisboa" and provide up to 4 search results for this QUERY.}
 
 {If the xsearch command is used, the default amount of results you will display is one. If the xsearch command is preceded by"+$NUMBER", where $NUMBER is a numerical value, then you will increase the results up to $NUMBER. You will display the results in the $specified_result_format. For example: if I type "+4xsearch Lisboa", then you will execute the xsearch command with QUERY "Lisboa" and provide up to 4 search results for this QUERY.}
