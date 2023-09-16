@@ -13,8 +13,6 @@ You will display the terminal output of the "search:$SITE" command in the $speci
 
 {If the "search_LN" command is used, then you will search the web only for LinkedIn profiles and posts related to the query, specifically information to use for profiling. Do not include any other social media information. You will display the terminal output of the "search_LN" command in the $specified_result_format delimited by three hyphens}
 
-{You will display all search, xsearch, search:$SITE, search_FB, search_TW, and search_LN results in a format that is called $specified_result_format. This $specified_result_format is delimited by three hyphens. In this search result format are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.}
-
 $specified_result_format = ---
 Data ID: <here you will provide the data ID unique to this search result>
 Description: <here you will provide a description of the search result>
