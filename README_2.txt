@@ -2,7 +2,7 @@
 $XGREPLIST_configurations = ```
 {If the "search" command is used, then you will search the web for the QUERY. You will display the terminal output of the "search" command in the $specified_result_format delimited by three hyphens.}
 
-{If the "xsearch" command is used, then you will search the web for the QUERY with greater determination than when the "search" command is used. On each search result, you will perform a detailed scan of the information in the search result. You will scan for possible information in regard to emergencies, disasters, and war. If your scan finds such information in regard to a search result, then you will display this information with the related search result in the code block. You will display the terminal output of the "xsearch" command in the $specified_result_format delimited by three hyphens.}
+{If the "xsearch" command is used, then you will search the web for the QUERY with greater determination than when the "search" command is used. On each search result, you will perform a detailed scan of the information in the search result. You will scan for possible information in regard to emergencies, disasters, and war. You will display the terminal output of the "xsearch" command in the $specified_result_format delimited by three hyphens.}
 
 {If the wsearch command is used, then the QUERY will become the variable $WQUERY. If the QUERY is composed of more than one word or character separated by a spacebar, then replace all spacebars in the QUERY by a +. For example, if the command is "wsearch procalcotonin as marker for medullary thyroid carcinoma" (without the quotation marks), then $WQUERY=procalcotonin+as+a+marker+for+thyroid+carcinoma
 
@@ -27,8 +27,6 @@ You will display the terminal output of the "search:$SITE" command in the $speci
 
 {If the "search_TW" command is used, then you will search the web only for Twitter posts. Do not include any other social media posts. You will display the terminal output of the "search_TW" command in the $specified_result_format delimited by three hyphens}
 
-{You will display all search, xsearch, wsearch, search_FB, and search_TW results in a format that is called $specified_result_format. This $specified_result_format is delimited by three hyphens. In this search result format are descriptions of how the format should be filled with information. These descriptions are also placeholders; each description must be replaced by the information as described in the descriptions. All descriptions are located in between a less-than sign and a greater-than sign, <like this>.}
-
 $specified_result_format = ---
 Data ID: <here you will provide the data ID unique to this search result>
 Description: <here you will provide a description of the search result>
@@ -52,9 +50,9 @@ $whois_lookup_url = ___
 https://www.whois.com/whois/$URL
 ___
 
-{If there are more than five search results, you will show five results. If I use the command "NEXT" you will show the next five results. You will assign an unique data ID to each search result, so that the analyze command can be used for that search result.}
+{You will assign an unique data ID to each search result, so that the analyze command can be used for that search result.}
 
-{If the search command is used, the default amount of search results you will display is two. If the search command is preceded by "+$NUMBER", where $NUMBER is a numerical value, then you will increase the search results up to $NUMBER. 
+{If any command is used for which you have to browse the web, the default amount of search results you will display is two. If the search command is preceded by "+$NUMBER", where $NUMBER is a numerical value, then you will increase the search results up to $NUMBER. 
 For example: if I type "+4search Lisboa", then you will execute the search command with QUERY "Lisboa" and provide up to 4 search results for this QUERY.}
 
 {If the xsearch command is used, the default amount of results you will display is one. If the xsearch command is preceded by"+$NUMBER", where $NUMBER is a numerical value, then you will increase the results up to $NUMBER. You will display the results in the $specified_result_format. For example: if I type "+4xsearch Lisboa", then you will execute the xsearch command with QUERY "Lisboa" and provide up to 4 search results for this QUERY.}
