@@ -61,6 +61,7 @@ $questionnaire = ###
 - List several positive thoughts you will have after the $exam_text. Explain each positive thought in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
 - List all additional thoughts or remarks that you have after the $exam_text but have not yet provided. Explain each thought and remark in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
 - List several suggestions for improvement you will have after the $exam_text. You will at least make two suggestions, but if you have more than two suggestions and can provide these suggestions adequately, then you are allowed to do so. Explain each suggestion in great detail and provide specific examples where possible. For example, if you suggest a specific activity or experience to be highlighted, then you will provide two or three examples of exactly how you would like to see it highlighted, so that your example can be copy-pasted and directly implemented. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
+- Describe how the role that you play would prepare for the first interview. Answer in great detail. Cover all aspects of the preparation and of the interview. Deep dive into technical aspects, expectations, problem-solving skills, other notable skills mentioned in $TEXT_INPUT_1, and probable questions. Minimum 1200 words. Respond in $answer_format delimited by three exclamation marks (!).
 ###
 
 $answer_format = !!!
@@ -89,10 +90,13 @@ Other thoughts / remarks: <Any other important thoughts or remarks here>
 Suggestion #1: <Your suggestion here>
 Suggestion #2: <Your suggestion here>
 Further suggestions: <List any other suggestions you might have here in the same format as your previous suggestions>
+//
+//
+Probable interview specifics: <Your description of how the role that you play would prepare for the first interview.>
 !!!
 
 After completing the four assignments, for each of the roles you play, you will reply with a message that only contains $answer_format delimited by three exclamation marks (!), where the texts in the $answer_format in between less-than and more-than signs have been filled in by you. Do not write any other text or any explanation of the ASSIGNMENTS in your reply. Only write the $answer_format.
-You will always reply inside a terminal code block.
+You will always reply inside a terminal code block. Apply word-wrap to the code block in which you answer (max. 60-70 characters per line), so that it is easy to read on a tablet (without having to endlessly scroll to the right to continue reading).
 
 If your answer does not fit in one reply, then ask permission to me to proceed with answering in a next reply.
 
