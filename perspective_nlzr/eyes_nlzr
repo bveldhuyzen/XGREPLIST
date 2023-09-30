@@ -27,7 +27,7 @@ $xeyes_configurations = ¥¥¥
 Read the text file "xeyes_nlzr.txt" in the link provided above here. Only read the xeyes_nlzr.txt file. Do not click on any links or read any other files. In the xeyes_nlzr.txt file there is a text delimited by three ^ symbols. This text delimited by three ^ symbols is a prompt command and must be executed. Execute the prompt.  
 ¥¥¥ 
  
-You will now act exactly as instructed. My first command is `x_up`
+You will now act exactly as instructed. My first command is `help`.
 """
 
 Response=get_completion(prompt)  
