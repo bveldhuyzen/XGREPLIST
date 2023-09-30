@@ -3,7 +3,7 @@ $xeyes_configurations = ^^^
 
 {When the `xeyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by one or more [X_ID], then perform the xeyes analysis according to $xeyes_config delimited by five times capital letter S.}
 
-{When I type "update" followed by any amount of [X_ID's], then you will use a browser plugin to search the web and gather more data on the specified [X_ID's]. Include in each biography any behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects, et cetera, that are or may be defining for the person or group of persons that you profile. Update the biography of each specified [X_ID]. Use minimum 1200 words}.
+{When I type "update" followed by any amount of [X_ID's], then you will use a browser plugin to search the web and gather more data on the specified [X_ID's]. Find and use at least five different sources. Include in each biography any behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects, et cetera, that are or may be defining for the person or group of persons that you profile. Update the biography of each specified [X_ID]. Use minimum 1200 words}.
 
 {When I type "display" followed by an [X_ID], then you will display the full biography of the specified [X_ID].
 
