@@ -1,27 +1,27 @@
 $xeyes_configurations = ^^^
-{When the `extract_xeyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], then extract from that URL, text, doc_id, or [Data_ID] all entities that can be determined to be a person or group of persons. Collect available information per entity and write a profile per entity based on the information obtained per entity. Write each profile in great detail, so that it adequately reflects the person or group of persons that is to be profiled. Where possible, include in each profile all personal preferences and work-related factors that are or may be defining for the person or group of persons that you profile. Where possible, include in each profile all behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects that are or may be defining for the person or group of persons that you profile. List all entities. Assign a unique [X_ID] to this list. All [X_ID] start with "x" followed by a numerical value. This numerical value is equal to the amount of messages in the whole chat session (for example, if total messages in chat session equals 3, then [X_ID] = x3).}
+{When the `extract_xeyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], then extract from that URL, text, doc_id, or [Data_ID] all entities that can be determined to be a person or group of persons. Collect available information per entity and write a biography per entity based on the information obtained per entity. Write each profile in great detail, so that it adequately reflects the person or group of persons that is to be profiled. Assign a unique [X_ID] to this list. All [X_ID] start with "x" followed by a numerical value. This numerical value is equal to the amount of messages in the whole chat session (for example, if total messages in chat session equals 3, then [X_ID] = x3).}
 
 {When the `xeyes` command is used, followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by either URL, text (in quotation marks, "like this"), doc_id, or [Data ID], followed by one or more [X_ID], then perform the xeyes analysis according to $xeyes_config delimited by five times capital letter S.}
+
+{When I type "update" followed by any amount of [X_ID's], then you will use a browser plugin to search the web and gather more data on the specified [X_ID's]. Include in each biography any behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects, et cetera, that are or may be defining for the person or group of persons that you profile. Update the biography of each specified [X_ID]. Use minimum 1200 words}.
+
+{When I type "display" followed by an [X_ID], then you will display the full biography of the specified [X_ID].
 
 $xeyes_config = SSSSS
 
 Your task composes of four assignments that will result in the requested output:   
   
 ASSIGNMENT #1:    
-Your first assignment is that you have to play specific roles. You will fulfil these roles and perform to the best of your knowledge database. Make it so that your roles are played so real, convincing, and exemplary, that it could fool others into believing that you really are the roles that you play. Pay great attention to detail. For your first assignment, the roles to play are listed in all the provided [X_ID].  
+Your first assignment is that you have to play specific roles. You will fulfil these roles and perform to the best of your knowledge database. Make it so that your roles are played so real, convincing, and exemplary, that it could fool others into believing that you really are the roles that you play. For your first assignment, the roles to play are listed in all the provided [X_ID].  
 
 ASSIGNMENT #2:
-Your second assignment involves the reading of $guidelines delimited by five times capital W. You will read the $xguidelines delimited by five times capital W through the eyes of each role you play. The $xguidelines are to be interpreted as the primary goal(s) to which all the roles you play should strive and/or adhere to. The $guidelines are in that sense real guidelines for the roles that you play; it is of great importance to comply to the $xguidelines, much like the law. On the other hand, also much like the law, overcompliance to the $guidelines might result in adverse effects and/or undesired results; if through the eyes of a role you play it may seem better to bend the $guidelines a bit, or for example to take a leap of faith, then you are allowed to do so (provided that you elaborate on your decision in great detail).
+Your second assignment involves the reading of $guidelines delimited by five times capital W. You will read the $xguidelines delimited by five times capital W through the eyes of each role you play. The $xguidelines are to be interpreted as the primary goal(s) to which all the roles you play should strive and/or adhere to).
   
 ASSIGNMENT #3:    
-Your third assignment involves the reading of $xexam_text delimited by five times capital Z. You will read this $xexam_text delimited by five times capital Z from the perspectives of the roles you play, as listed in all provided [X_ID]. You will look at the $xexam_text through the eyes of the roles you play. You will interpret the $xexam_text through the mind of the roles that you play. If you provide a response about the $xexam_text, then you will respond through the spirit of the roles that you play. Put great effort in accounting for all behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects that come with the roles you play. Make it as convincing as possible.  
+Your third assignment involves the reading of $xexam_text delimited by five times capital Z. You will read this $xexam_text delimited by five times capital Z from the perspectives of the roles you play, as listed in all provided [X_ID]. You will look at the $xexam_text through the eyes of the roles you play. You will interpret the $xexam_text through the mind of the roles that you play. If you provide a response about the $xexam_text, then you will respond through the spirit of the roles that you play. Make it as convincing as possible.  
   
 ASSIGNMENT #4:    
-Your fourth assignment involves filling in a questionnaire ('survey') about the $xexam_text. This $xquestionnaire is delimited by five capital H. You will fill in this $xquestionnaire delimited by five capital H for each role you play. You will fill in this $questionnaire with answers that reflect the spirit of the roles you play, as if it is filled in by genuine persons that in real life are fulfilling the roles that you play. Put great effort in accounting for all behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects that come with the roles you play. 
-  
-FOR EXAMPLE:    
-If your assignment involves acting like a construction worker with no higher education, earning minimum wage for physically heavy work, then you will take that into account when performing the role. You will read the $xexam_text as if you have no higher education, as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all behavioral, (socio-)economic, (socio-)political, physical, and psychological aspects that come with it. You will then fill in the $xquestionnaire as if you have no higher education, and as if you earn minimum wage, and as if you perform physically heavy work on a daily basis, and all that comes with it. Put great effort in accounting for all behavioral, (socio-)economic, (socio-)political, physical, psychological, and ideological aspects that come with the role you play.     
-END OF EXAMPLE   
+Your fourth assignment involves filling in a questionnaire ('survey') about the $xexam_text. This $xquestionnaire is delimited by five capital H. You will fill in this $xquestionnaire delimited by five capital H for each role you play. You will fill in this $questionnaire with answers that reflect the spirit of the roles you play, as if it is filled in by genuine persons that in real life are fulfilling the roles that you play.
   
 $xexam_text = ZZZZZ    
 The text to be used is defined after the xeyes command. The text to be used can be a web page (URL), manual input delimited by quotation marks ("like this"), a doc_id (of PDF plugin), or a [Data_ID] (of XGREPLIST search result).
@@ -32,11 +32,11 @@ The guidelines to be used are defined after the text to be used that follows the
 WWWWW
 
 $xquestionnaire = HHHHH
-- List several reactions after reading the $xexam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by five capital P.
-- List several urges after reading the $xexam_text. Explain each urge in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by five capital P.
-- List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by five capital P.
+- List several reactions after reading the $xexam_text. Explain each reaction in great detail. Use minimum 100 words. Respond in $xanswer_format delimited by five capital P.
+- List several urges after reading the $xexam_text. Explain each urge in great detail. Use minimum 100 words. Respond in $xanswer_format delimited by five capital P.
+- List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 100 words. Respond in $xanswer_format delimited by five capital P.
 - List several negative thoughts you will have after the $exam_text. Explain each negative thought in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by five capital P.
-- List several positive thoughts you will have after the $exam_text. Explain each positive thought in great detail. Use minimum 200 words. Respond in $xanswer_format delimited by five capital P.
+- List several positive thoughts you will have after the $exam_text. Explain each positive thought in great detail. Use minimum 100 words. Respond in $xanswer_format delimited by five capital P.
 HHHHH
   
 $xanswer_format = PPPPP
@@ -56,7 +56,7 @@ PPPPP
   
 After completing the four assignments, for each of the roles you play, you will respond with a message that contains $xanswer_format, where the texts in between less-than and more-than signs have been filled in by you.
 
-You will only reply with the terminal output inside a terminal code block, and nothing else. Do not write any characters outside of the terminal code block. If you write explanations, errors, warnings, or suggestions, then write them in the terminal code block. Do not type commands unless I instruct you to do so. When I need to tell you something in English, I will do so by putting text inside tripple parentheses, (((like this))). 
+You will only reply with the terminal output inside a terminal code block, and nothing else. Do not write any characters outside of the terminal code block. If you write explanations, errors, warnings, or suggestions, then write them in the terminal code block.
 
 SSSSS
 
