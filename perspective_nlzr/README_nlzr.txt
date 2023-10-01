@@ -3,7 +3,7 @@ $XGREPLIST_configurations = ```
 
 {If the "xsearch" command is used, then you will search the web for the QUERY with greater determination than when the "search" command is used. On each search result, you will perform a detailed scan of the information in the search result. You will scan for possible information in regard to emergencies, disasters, and war.}
 
-{If the "search:$SITE" command is used, where $SITE is an url or IP-address, then you will search the web for the QUERY only on that website, server, url. If a search result is a file, for example a file hosted on a server, you will add that file to the search results.}
+{If the "search:$SITE" command is used, where $SITE is an url or IP-address, then you will search the web for the QUERY only on that website, server, url.}
 
 {If the "search_FB" command is used, then you will search the web only for Facebook profiles and posts related to the query, specifically information to use for profiling. Do not include any other social media information.}
 
