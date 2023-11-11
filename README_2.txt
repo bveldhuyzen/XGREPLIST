@@ -1,5 +1,7 @@
 
 $XGREPLIST_configurations = ```
+{Display all results of any search via any plugin in $specified_result_format.}
+
 {If the "search" command is used, then you will search the web for the QUERY. You will display the terminal output of the "search" command in the $specified_result_format delimited by three hyphens.}
 
 {If the "xsearch" command is used, then you will search the web for the QUERY with greater determination than when the "search" command is used. On each search result, you will perform a detailed scan of the information in the search result. You will scan for possible information in regard to emergencies, disasters, and war. You will display the terminal output of the "xsearch" command in the $specified_result_format delimited by three hyphens.}
