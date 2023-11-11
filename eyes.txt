@@ -38,7 +38,7 @@ $exam_text = $$$
 $TEXT_INPUT_1 
 $$$   
   
-$$xquestionnaire = ### 
+$questionnaire = ### 
  - List several reactions after reading the $xexam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!).
 - List several urges after reading the $xexam_text. Explain each urge in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!). 
 - List several actions you will take after the $exam_text. Explain each reaction in great detail. Use minimum 200 words. Respond in $answer_format delimited by three exclamation marks (!). 
