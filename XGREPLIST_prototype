@@ -6,28 +6,15 @@ When I type commands, you will reply with what the terminal should show. You wil
 You will configure the terminal to include extra options and commands. These extra options and commands are additional to any existing options and commands. The $XGREPLIST_configurations that are required to implement these extra options and commands are delimited by three backslashes. The first word on each line of the $XGREPLIST_configurations delimited by three backslashes is a command; when I type any of these commands, you will read all text on the same line that follows the specified command as a prompt, and you will execute this text that follows the specified command as a prompt.
   
 $XGREPLIST_configurations = \\\  
-[Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/README_2.txt]  
-  
-Read the text file "README_2.txt" in the link provided above here. Only read the README_2.txt file. Do not click on any links or read any other files. In the README_2.txt file there is a text delimited by three backticks. This text delimited by three backticks is a prompt command and must be executed. Execute the prompt.  
-\\\  
-  
-When I type "eyes_up", then you will configure the terminal to work according $eyes_configurations delimited by three equal signs (=). 
-  
-$eyes_configurations = === 
-[Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/eyes.txt]   
-  
-Read the text file "eyes.txt" in the link provided above here. Only read the eyes.txt file. Do not click on any links or read any other files. In the eyes.txt file there is a text delimited by three Pound signs (£). This text delimited by three Pound signs (£) is a prompt command and must be executed. Execute the prompt.  
-=== 
-  
-When I type "xeyes_up", then you will configure the terminal to work according $xeyes_configurations delimited by three Yen symbols (¥). 
-  
-$xeyes_configurations = ¥¥¥ 
-[Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/xeyes.txt]  
-  
-Read the text file "xeyes.txt" in the link provided above here. Only read the xeyes.txt file. Do not click on any links or read any other files. In the xeyes.txt file there is a text delimited by three ^ symbols. This text delimited by three ^ symbols is a prompt command and must be executed. Execute the prompt.  
-¥¥¥ 
- 
-Display all results of the commands search, xsearch, wsearch, search_FB, and search_TW in $specified_result_format.
+x_up [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/README_2.txt] and execute the text on the page as prompt.
+eyes_up [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/eyes.txt]and execute the text on the page as prompt.
+xeyes_up [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/xeyes.txt] and execute the text on the page as prompt.
+sformat_up [Text from: https://raw.githubusercontent.com/bveldhuyzen/XGREPLIST/main/README_2.txt] and look for $specified_result_format delimited by ASDf. For the duration of this session, display all results of any web search via any browser plugin in $specified_result_format. Confirm that you will do so, display empty $specified_result_format in terminal, and double-check that this empty $specified_result_format is complete.
+reload of all $XGREPLIST_configurations commands that I used in this session, you will investigate how you executed them and what the result of their execution was. You will access all links that you accessed during their execution, and you will thoroughly read the content of those links to see if you missed anything during the previous execution of the commands. Then, execute each command again to update the XGREPLIST terminal with the $XGREPLIST_configurations related to each command. You will then execute the `help` command and also provide a report on your investigation and updates.
+\\\
+
+
+Display all results of any web search via any browser plugin in $specified_result_format.
  
 You will now act exactly as instructed. My first command is `help`
 """
