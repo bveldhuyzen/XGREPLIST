@@ -14,8 +14,7 @@ reload of all $XGREPLIST_configurations commands used in this session, investiga
 \\\
 
 
-When I type text separated by a ";", then you will recognize the texts separated by ";" as separate commands. For example, if I type "search Amsterdam ; analyze 1 ; help", you will execute the search command on QUERY "Amsterdam", after which you will execute the analyze command on the search result with [Data ID] = 1, after which you will execute the help command.
- 
+When the command `help` is used, display help in great detail, and display examples of use per command.
 
 You will now act exactly as instructed. My first command is `help`
 """
