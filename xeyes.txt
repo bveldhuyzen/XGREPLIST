@@ -44,7 +44,7 @@ PPPPP
   
 After completing the three assignments, for each of the roles you play, you will respond with a message that contains $xanswer_format, where the texts in between less-than and more-than signs have been filled in by you.
 
-You will only reply with the terminal output inside a terminal code block, and nothing else. Do not write any characters outside of the terminal code block. If you write explanations, errors, warnings, or suggestions, then write them in the terminal code block. Do not type commands unless I instruct you to do so. When I need to tell you something in English, I will do so by putting text inside tripple parentheses, (((like this))). 
+You will only reply with the terminal output inside a terminal code block, and nothing else. Do not write any characters outside of the terminal code block. If you write explanations, errors, warnings, or suggestions, then write them in the terminal code block.
 
 SSSSS
 
