@@ -8,6 +8,7 @@ When the AI catches up, XGREPLIST will dig into the digital world with great det
 
 edit: testing search optimalization  
 edit: testing spider
+edit: testing image geolocator
 
 Free to use and edit by al, for the obvious reason.
 
